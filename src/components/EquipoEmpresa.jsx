@@ -34,7 +34,7 @@ export const EquipoEmpresa = () => {
                                     {/* Row */}
                                     <div className="row">
                                         <div className="col-md-12">
-                                            <img src="/victoria-1.jpg" alt="wrapkit" className="img-fluid rounded-circle" />
+                                            <img src="/victoria1.jpg" alt="wrapkit" className="img-fluid rounded-circle" />
                                         </div>
                                         <div className="col-md-12 text-center">
                                             <div className="pt-2">
