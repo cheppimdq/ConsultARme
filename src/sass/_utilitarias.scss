@@ -1,0 +1,32 @@
+// OCULTAR
+.ocultar {
+    display: none;
+    @media screen and (min-width: 768px) {
+        display: block;
+    };
+}
+
+// LINKS
+.link-blanco { a, .nav-link, .nav-link:hover, .nav-link.active, i, button { @include enlace-pp(blanco-1, blanco, gris); } }
+.link-gris { a, .nav-link, .nav-link:hover, .nav-link.active, i { @include enlace-pp(blanco-2, blanco, gris); } } // funcionando en el nav
+.link-negro { a, .nav-link, .nav-link:hover, .nav-link.active, i { @include enlace-pp(negro, negro-1, gris); } }
+.link-azul { a, .nav-link, .nav-link:hover, .nav-link.active, i { @include enlace-pp(linkedin, negro-1, gris); } }
+.link-rojo { a, .nav-link, .nav-link:hover, .nav-link.active, i { @include enlace-pp(rojo, rojito, gris); } }
+
+// COLORES DE FONDO
+.fondo-blanco { background-color: map-get($color-pp, blanco); }
+.fondo-blanco-1 { background-color: map-get($color-pp, blanco-1); }
+.fondo-blanco-2 { background-color: map-get($color-pp, blanco-2); }
+.fondo-gris { background-color: map-get($color-pp, gris); }
+
+.fondo-negro-2 { 
+    background-color: map-get($color-pp, negro-2);
+    color: map-get($color-pp, blanco-1);
+}
+
+.fondo-negro-1 { 
+    background-color: map-get($color-pp, negro-1);
+    color: map-get($color-pp, gris);
+}
+
+.fondo-negro { background-color: map-get($color-pp, negro); } // Acá va solo fondo negro !!!

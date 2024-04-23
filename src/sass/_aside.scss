@@ -1,0 +1,33 @@
+// GOOGLE MAPS
+// .mapa-pp {
+//     @extend %foto-pp;
+//     height: 66vh;
+// }
+
+// WHATSAPP
+.boton-wp { 
+    position: fixed;
+    font-size: 2rem;
+    bottom: 5vh;
+    right: 5vh;
+    width: 3.8rem;  // Ancho del círculo
+    height: 3.8rem; // Altura del círculo
+
+    background-color: map-get($color-pp, whatsapp);
+    color: map-get($color-pp, blanco-1);
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 1000;
+
+    &:hover {
+        background-color: map-get($color-pp, blanco-1);
+        color: map-get($color-pp, whatsapp);
+    }
+}

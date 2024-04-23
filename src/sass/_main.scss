@@ -1,0 +1,16 @@
+// IFRAME DE GOOGLE 1 X 1 PERFECTO
+.iframe-maps {
+    width: 100%;
+    height: 100%;
+}
+
+.empresa-perfil { 
+    @extend %foto-pp;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.boton-in { /* BOTON LINKEDIN */
+    font-size: 2rem;
+    color: map-get($color-pp, linkedin); 
+}
