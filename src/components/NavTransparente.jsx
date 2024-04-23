@@ -27,15 +27,18 @@ export const NavTransparente = () => {
       <nav className="navbar navbar-expand-lg fixed-top nav-negro" id="navTransparente">
         <div className="container link-blanco">
 
-        <Link to='/' className="navbar-brand"><strong className="mt-2">ConsultARme</strong></Link>
+          <Link to="/" className="navbar-brand col-sm-12 col-md-2">
+            <img src="/ConsultARme/logonav.png" alt="Logo Web Pint" width="30" height="24" className="logo-pp" />
+          </Link>
+
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-              <FontAwesomeIcon icon="fa-solid fa-bars" />
+            <FontAwesomeIcon icon="fa-solid fa-bars" />
           </button>
 
           <div className="collapse navbar-collapse" id="navbarScroll">
             <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
               <li className="nav-item"><NavLink to='/' className="nav-link">Inicio</NavLink></li>
-              <li className="nav-item"><NavLink to='/planes' className="nav-link">Planes</NavLink></li>
+              <li className="nav-item"><NavLink to='/planes' className="nav-link">Tarifas</NavLink></li>
               <li className="nav-item"><NavLink to='/empresa' className="nav-link">Empresa</NavLink></li>
               <li className="nav-item"><NavLink to='/contacto' className="nav-link">Contacto</NavLink></li>
             </ul>

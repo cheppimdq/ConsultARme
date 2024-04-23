@@ -7,23 +7,23 @@ export const HeaderSecundario = () => {
 
     const obtenerContenidoPorSeccion = () => {
         switch (pathname) {
-            case '/noticias':
+            case '/planes':
                 return {
-                    titulos: ["Noticias"],
+                    titulos: ["Planes"],
                     imagenes: [
-                        'https://images.pexels.com/photos/8438953/pexels-photo-8438953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-                        'https://images.pexels.com/photos/4973815/pexels-photo-4973815.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+                        '/ConsultARme/planes.jpg',
+                        '',
                     ],
-                    textos: [ 'Lo último en Ajedrez' ]
+                    textos: [ 'Excelentes planes de precios para todos' ]
                 };
-            case '/calendario':
+            case '/empresa':
                 return {
-                    titulos: ["Calendario"],
+                    titulos: ["Empresa"],
                     imagenes: [
-                        'https://images.pexels.com/photos/11363590/pexels-photo-11363590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+                        'https://images.pexels.com/photos/6794967/pexels-photo-6794967.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
                         'https://images.pexels.com/photos/273153/pexels-photo-273153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
                     ],
-                    textos: [ 'Planificá tu Agenda' ]
+                    textos: [ 'Servicios de consultoría para MIPYMES' ]
                 };
             case '/contacto':
                 return {

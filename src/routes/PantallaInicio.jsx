@@ -13,7 +13,6 @@ const PantallaInicio = () => {
       <NavTransparente />
       <HeaderFull />
       <MainIndex />
-      <DestacadoFooter />
       <BotonFlotante />
       <FooterNegro />
     </>

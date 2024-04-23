@@ -34,12 +34,12 @@ export const HeaderFull = () => {
                     <div className="carousel-item altura-100 active">
                         <div className="carousel-caption">
                             <a href=""><h1>ConsultARme</h1></a>
-                            <p>Soluciones empresariales</p>
+                            <p>¡Hacé crecer tu Pyme!</p>
                         </div>
                         <video
                             id="header-video"
-                            src="https://videos.pexels.com/video-files/3209176/3209176-uhd_3840_2160_25fps.mp4"
-                            alt="Vídeo de Vlada Karpovich: https://www.pexels.com/es-es/video/hombre-sentado-jugando-emocionante-6058909/"
+                            src="/ConsultARme/headerfull.mp4"
+                            alt="Vídeo de Pressmaster: https://www.pexels.com/es-es/video/un-hombre-caminando-dentro-de-una-planta-de-produccion-3209176/"
                             type="video/mp4"
                             autoPlay  // Reproducción automática
                             muted     // Video silenciado (importante para algunos navegadores)
@@ -49,18 +49,18 @@ export const HeaderFull = () => {
                     </div>
 
                     <div className="carousel-item altura-100">
-                        <img src="https://images.pexels.com/photos/8438953/pexels-photo-8438953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="..."></img>
+                        <img src="/ConsultARme/planes.jpg" alt="Foto de Leeloo The First: https://www.pexels.com/es-es/foto/telefono-inteligente-tecnologia-aplicacion-documento-8962447/"></img>
                         <div className="carousel-caption">
-                            <a href=""><h2>Noticias</h2></a>
-                            <p>Lo último en Ajedrez</p>
+                            <a href=""><h2>Planes</h2></a>
+                            <p>Ofrecemos excelentes planes de precios para todos.</p>
                         </div>
                     </div>
 
                     <div className="carousel-item altura-100">
-                        <img src="https://images.pexels.com/photos/11363590/pexels-photo-11363590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="..."></img>
+                        <img src="https://images.pexels.com/photos/6794967/pexels-photo-6794967.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="..."></img>
                         <div className="carousel-caption">
-                            <a href=""><h2>Calendario</h2></a>
-                            <p>Planificá con nuestro calendario</p>
+                            <a href=""><h2>Empresa</h2></a>
+                            <p>Servicios de consultoría para MIPYMES</p>
                         </div>
                     </div>
 
