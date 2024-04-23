@@ -11,7 +11,7 @@ export const HeaderSecundario = () => {
                 return {
                     titulos: ["Planes"],
                     imagenes: [
-                        '/ConsultARme/planes.jpg',
+                        '/planes.jpg',
                         '',
                     ],
                     textos: [ 'Excelentes planes de precios para todos' ]
