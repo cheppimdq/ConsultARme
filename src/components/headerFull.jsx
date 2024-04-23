@@ -38,7 +38,7 @@ export const HeaderFull = () => {
                         </div>
                         <video
                             id="header-video"
-                            src="/ConsultARme/headerfull.mp4"
+                            src="/headerfull.mp4"
                             alt="Vídeo de Pressmaster: https://www.pexels.com/es-es/video/un-hombre-caminando-dentro-de-una-planta-de-produccion-3209176/"
                             type="video/mp4"
                             autoPlay  // Reproducción automática
@@ -49,7 +49,7 @@ export const HeaderFull = () => {
                     </div>
 
                     <div className="carousel-item altura-100">
-                        <img src="/ConsultARme/planes.jpg" alt="Foto de Leeloo The First: https://www.pexels.com/es-es/foto/telefono-inteligente-tecnologia-aplicacion-documento-8962447/"></img>
+                        <img src="/planes.jpg" alt="Foto de Leeloo The First: https://www.pexels.com/es-es/foto/telefono-inteligente-tecnologia-aplicacion-documento-8962447/"></img>
                         <div className="carousel-caption">
                             <a href=""><h2>Planes</h2></a>
                             <p>Ofrecemos excelentes planes de precios para todos.</p>
