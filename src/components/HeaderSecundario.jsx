@@ -11,7 +11,7 @@ export const HeaderSecundario = () => {
                 return {
                     titulos: ["Planes"],
                     imagenes: [
-                        '/planes.jpg',
+                        '/ConsultARme/planes.jpg',
                         '',
                     ],
                     textos: [ 'Excelentes planes de precios para todos' ]
@@ -29,7 +29,7 @@ export const HeaderSecundario = () => {
                 return {
                     titulos: ["Contacto"],
                     imagenes: [
-                        '/banner-2.jpg',
+                        '/ConsultARme/banner-2.jpg',
                         'https://images.pexels.com/photos/15322501/pexels-photo-15322501/free-photo-of-beach-and-resort-on-cape.jpeg',
                     ],
                     textos: [ 'Comunicate con nosotros' ]
@@ -38,11 +38,11 @@ export const HeaderSecundario = () => {
                 return {
                     titulos: ["ChessBayi"],
                     imagenes: [
-                        '../src/assets/img/ajedrez-2.jpg',
-                        '../src/assets/img/ajedrez-3.jpg',
-                        '../src/assets/img/ajedrez-7.jpg'
+                        '/ConsultARme/',
+                        '/ConsultARme/',
+                        '/ConsultARme/'
                     ],
-                    textos: [ 'Ajedrez al Paso' ]
+                    textos: [ 'ConsultARme' ]
                 };
         }
     };
