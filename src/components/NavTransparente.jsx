@@ -27,7 +27,7 @@ export const NavTransparente = () => {
       <nav className="navbar navbar-expand-lg fixed-top nav-negro" id="navTransparente">
         <div className="container link-blanco">
 
-          <Link to="/" className="navbar-brand col-sm-12 col-md-2">
+          <Link to="/" className="navbar-brand col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2">
             <img src="/ConsultARme/logonav.png" alt="Logo Web Pint" width="30" height="24" className="logo-pp" />
           </Link>
 
