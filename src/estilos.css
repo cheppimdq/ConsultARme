@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import "bootstrap/dist/css/bootstrap.min.css";
-.empresa-perfil, .carousel-item img, .carousel-item video, .logo-pp, body img {
+.carousel-item img, .carousel-item video, .logo-pp, body img {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -242,13 +242,7 @@ body {
   height: 100%;
 }
 
-.empresa-perfil {
-  max-width: 100%;
-  border-radius: 50%;
-}
-
 .boton-in {
-  /* BOTON LINKEDIN */
   font-size: 1rem;
   width: 1.5rem;
   height: 1.5rem;
@@ -265,6 +259,28 @@ body {
 }
 .boton-in:hover {
   background-color: #ffffff;
+}
+
+.boton-contacto {
+  display: flex; /* Añade display: flex para centrar vertical y horizontalmente */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  font-size: 1rem;
+  width: 2rem; /* Ancho del círculo */
+  height: 2rem; /* Altura del círculo */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  border-radius: 50%;
+}
+.boton-contacto .icono-in {
+  color: #ffffff;
+}
+.boton-contacto .icono-in:hover {
+  color: #3b70d8;
+}
+.boton-contacto:hover {
+  color: #ffffff;
+  background-color: #3b70d8;
 }
 
 .boton-wp {
