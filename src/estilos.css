@@ -249,8 +249,22 @@ body {
 
 .boton-in {
   /* BOTON LINKEDIN */
-  font-size: 2rem;
+  font-size: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #3b70d8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  border-radius: 50%;
+}
+.boton-in .icono-in {
+  color: #ffffff;
+}
+.boton-in .icono-in:hover {
   color: #3b70d8;
+}
+.boton-in:hover {
+  background-color: #ffffff;
 }
 
 .boton-wp {
