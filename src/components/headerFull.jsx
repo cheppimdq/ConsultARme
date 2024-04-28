@@ -51,8 +51,8 @@ export const HeaderFull = () => {
                     <div className="carousel-item altura-100">
                         <img src="https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Foto de Leeloo The First: https://www.pexels.com/es-es/foto/telefono-inteligente-tecnologia-aplicacion-documento-8962447/"></img>
                         <div className="carousel-caption">
-                            <a href=""><h2>Planes</h2></a>
-                            <p>Ofrecemos excelentes planes de precios para todos.</p>
+                            <a href=""><h2>Servicios</h2></a>
+                            <p>Ofrecemos excelentes planes de precios para todos</p>
                         </div>
                     </div>
 

@@ -23,7 +23,7 @@ export const HeaderSecundario = () => {
                         'https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
                         '',
                     ],
-                    textos: [ 'Planificá tu Agenda' ]
+                    textos: [ 'Ofrecemos excelentes planes de precios para todos' ]
                 };
             case '/contacto':
                 return {
