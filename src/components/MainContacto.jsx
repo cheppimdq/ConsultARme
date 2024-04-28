@@ -72,7 +72,7 @@ export const MainContacto = () => {
                     </div>
                     <div className='col-md-6 py-1'>
                         <iframe className='iframe-maps'
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11086.90643251496!2d-57.55661713527157!3d-38.000359207543845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584deaedf445941%3A0xd000e61c5a405636!2sFMA%20Federaci%C3%B3n%20Marplatense%20de%20Ajedrez!5e0!3m2!1ses!2sar!4v1710471266341!5m2!1ses!2sar"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5908.684724594333!2d-71.36103115956003!3d-42.22849825291371!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961b87d8d8391ad7%3A0xff6964d741c7b3b6!2zRXB1ecOpbiwgQ2h1YnV0!5e0!3m2!1ses!2sar!4v1714322802092!5m2!1ses!2sar "
                             width="600"
                             height="450"
                             style={{ border: 0 }}

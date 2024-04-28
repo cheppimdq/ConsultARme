@@ -49,7 +49,7 @@ export const HeaderFull = () => {
                     </div>
 
                     <div className="carousel-item altura-100">
-                        <img src="/ConsultARme/planes.jpg" alt="Foto de Leeloo The First: https://www.pexels.com/es-es/foto/telefono-inteligente-tecnologia-aplicacion-documento-8962447/"></img>
+                        <img src="https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Foto de Leeloo The First: https://www.pexels.com/es-es/foto/telefono-inteligente-tecnologia-aplicacion-documento-8962447/"></img>
                         <div className="carousel-caption">
                             <a href=""><h2>Planes</h2></a>
                             <p>Ofrecemos excelentes planes de precios para todos.</p>
@@ -65,7 +65,7 @@ export const HeaderFull = () => {
                     </div>
 
                     <div className="carousel-item altura-100">
-                        <img src="https://images.pexels.com/photos/1714205/pexels-photo-1714205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="..."></img>
+                        <img src="/ConsultARme/epuyen.jpg" alt="..."></img>
                         <div className="carousel-caption">
                             <a href=""><h2>Contacto</h2></a>
                             <p>Comunicate con nosotros</p>

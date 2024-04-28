@@ -10,7 +10,7 @@ export const RutasPantallas = () => {
     return (
         <Routes>
             <Route path="/" element={<PantallaInicio />} />
-            <Route path="/planes" element={<PantallaPlanes />} />
+            <Route path="/servicios" element={<PantallaPlanes />} />
             <Route path="/empresa" element={<PantallaEmpresa />} />
             <Route path="/contacto" element={<PantallaContacto />} />
             <Route path="*" element={<Navigate to="/" />} />

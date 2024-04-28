@@ -6,11 +6,11 @@ import 'slick-carousel/slick/slick-theme.css';
 const logosClientes = [
     '/ConsultARme/cliente-1.jpg',
     '/ConsultARme/cliente-2.jpg',
-    '/ConsultARme/cliente-3.jpg',
-    '/ConsultARme/cliente-4.webp',
+    '/ConsultARme/cliente-3.png',
+    '/ConsultARme/cliente-4.png',
     '/ConsultARme/cliente-5.png',
-    '/ConsultARme/cliente-6.gif',
-    '/ConsultARme/cliente-7.png',
+    '/ConsultARme/cliente-6.png',
+    '/ConsultARme/cliente-7.jpg',
     '/ConsultARme/cliente-8.png',
 ];
 
@@ -30,7 +30,7 @@ export const ClientesEmpresa = () => {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
@@ -67,17 +67,19 @@ export const ClientesEmpresa = () => {
     };
 
     return (
-        <article className="container link-negro mt-4">
-            <h3 className="col-sm-12">Tendencia</h3>
-            <div className="">
-                <Slider {...settings}>
-                    {logosClientes.map((logo, index) => (
-                        <div className="col-sm-12 col-md-4 columna-articulo-footer p-3" key={index}>
-                            <img src={logo} alt={`Cliente ${index + 1}`} />
-                        </div>
-                    ))}
-                </Slider>
-            </div>
-        </article>
+        <>
+            <article className="container link-negro mt-4">
+                <h3 className="col-sm-12">Tendencia</h3>
+                <div className="">
+                    <Slider {...settings}>
+                        {logosClientes.map((logo, index) => (
+                            <div className="col-sm-12 col-md-4 columna-articulo-footer p-3" key={index}>
+                                <img src={logo} alt={`Cliente ${index + 1}`} />
+                            </div>
+                        ))}
+                    </Slider>
+                </div>
+            </article>
+        </>
     );
 };

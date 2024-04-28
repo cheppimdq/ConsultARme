@@ -38,8 +38,8 @@ export const NavTransparente = () => {
           <div className="collapse navbar-collapse" id="navbarScroll">
             <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
               <li className="nav-item"><NavLink to='/' className="nav-link">Inicio</NavLink></li>
-              <li className="nav-item"><NavLink to='/planes' className="nav-link">Tarifas</NavLink></li>
               <li className="nav-item"><NavLink to='/empresa' className="nav-link">Empresa</NavLink></li>
+              <li className="nav-item"><NavLink to='/servicios' className="nav-link">Servicios</NavLink></li>
               <li className="nav-item"><NavLink to='/contacto' className="nav-link">Contacto</NavLink></li>
             </ul>
           </div>

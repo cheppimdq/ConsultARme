@@ -6,7 +6,6 @@ export const MainIndex = () => {
             <main className="container mt-4">
                 <div className="row link-negro">
 
-                    <p>en construccion</p>
 
                 </div>
 

@@ -2,29 +2,69 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 
 export const HeaderSecundario = () => {
-    const logosClientes = [
-        '/ConsultARme/logo1.jpg',
-        '/ConsultARme/logo2.jpg',
-        '/ConsultARme/logo3.jpg',
-    ];
+    const location = useLocation();
+    const { pathname } = location;
+
+    const obtenerContenidoPorSeccion = () => {
+        switch (pathname) {
+            case '/empresa':
+                return {
+                    titulos: ["Empresa"],
+                    imagenes: [
+                        'https://images.pexels.com/photos/6794967/pexels-photo-6794967.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+                        '',
+                    ],
+                    textos: [ 'Servicios de consultoría para MIPYMES' ]
+                };
+            case '/servicios':
+                return {
+                    titulos: ["Servicios"],
+                    imagenes: [
+                        'https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+                        '',
+                    ],
+                    textos: [ 'Planificá tu Agenda' ]
+                };
+            case '/contacto':
+                return {
+                    titulos: ["Contacto"], 
+                    imagenes: [
+                        '/ConsultARme/epuyen.jpg',
+                        'https://images.pexels.com/photos/1714205/pexels-photo-1714205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+                    ],
+                    textos: [ 'Comunicate con nosotros' ]
+                };
+            default:
+                return {
+                    titulos: ["ChessBayi"],
+                    imagenes: [
+                        '../src/assets/img/ajedrez-2.jpg',
+                        '../src/assets/img/ajedrez-3.jpg',
+                        '../src/assets/img/ajedrez-7.jpg'
+                    ],
+                    textos: [ 'Ajedrez al Paso' ]
+                };
+        }
+    };
+
+    const { titulos, imagenes, textos } = obtenerContenidoPorSeccion();
 
     return (
-        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-            <div className="carousel-inner">
-                {logosClientes.map((logo, index) => (
-                    <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
-                        <img src={logo} className="d-block w-100" alt={`Logo ${index + 1}`} />
-                    </div>
-                ))}
-            </div>
-            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Previous</span>
-            </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span>
-            </button>
-        </div>
+        <>
+            <header id="carouselExampleCaptions" className="carousel slide carousel-pp" data-bs-ride="carousel">
+                <div className="carousel-inner">
+                    {imagenes.map((imagen, index) => (
+                        <div key={index} className={`carousel-item altura-79 ${index === 0 ? 'active' : ''}`}>
+                            <img src={imagen} alt={`Imagen ${index + 1}`} />
+                        </div>
+                    ))}
+                </div>
+            
+                <div className="carousel-caption">
+                    <h1>{titulos[0]}</h1>
+                    <p>{textos[0]}</p>
+                </div>
+            </header>
+        </>
     );
 };
