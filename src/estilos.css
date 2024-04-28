@@ -225,6 +225,18 @@ body {
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
 }
 
+.logos-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.logos-container img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .iframe-maps {
   width: 100%;
   height: 100%;
@@ -235,7 +247,8 @@ body {
   border-radius: 50%;
 }
 
-.boton-in { /* BOTON LINKEDIN */
+.boton-in {
+  /* BOTON LINKEDIN */
   font-size: 2rem;
   color: #3b70d8;
 }
