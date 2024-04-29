@@ -28,7 +28,7 @@ export const NavTransparente = () => {
         <div className="container link-blanco">
 
           <Link to="/" className="navbar-brand col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2">
-            <img src="/ConsultARme/logonav.png" alt="Logo Web Pint" width="30" height="24" className="logo-pp" />
+            <img src="/ConsultARme/logonav.png" alt="" width="30" height="24" className="logo-pp" />
           </Link>
 
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">

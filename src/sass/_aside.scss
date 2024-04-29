@@ -1,9 +1,3 @@
-// GOOGLE MAPS
-// .mapa-pp {
-//     @extend %foto-pp;
-//     height: 66vh;
-// }
-
 // WHATSAPP
 .boton-wp { 
     position: fixed;
@@ -13,8 +7,8 @@
     width: 3.8rem;  // Ancho del círculo
     height: 3.8rem; // Altura del círculo
 
-    background-color: map-get($color-pp, whatsapp);
-    color: map-get($color-pp, blanco-1);
+    background-color: map-get($color-pp, verde);
+    color: map-get($color-pp, blanco);
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
@@ -27,7 +21,7 @@
     z-index: 1000;
 
     &:hover {
-        background-color: map-get($color-pp, blanco-1);
-        color: map-get($color-pp, whatsapp);
+        background-color: map-get($color-pp, blanco);
+        color: map-get($color-pp, verde);
     }
 }

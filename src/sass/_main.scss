@@ -3,7 +3,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-
     img {
         max-width: 100px;
         height: auto;
@@ -23,47 +22,40 @@
     font-size: 1rem;
     width: 1.5rem; // Ancho del círculo
     height: 1.5rem; // Altura del círculo
-    background-color: map-get($color-pp, linkedin);
+    background-color: map-get($color-pp, azul);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
     border-radius: 50%;
-
     .icono-in {
         color: map-get($color-pp, blanco);
-
         &:hover {
-            color: map-get($color-pp, linkedin);
+            color: map-get($color-pp, azul);
         }
     }
-
     &:hover {
         background-color: map-get($color-pp, blanco);
     }
 }
 
+// BOTON CONTACTO
 .boton-contacto {
     display: flex; /* Añade display: flex para centrar vertical y horizontalmente */
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
-
-    font-size: 1rem;
-    width: 2rem; /* Ancho del círculo */
-    height: 2rem; /* Altura del círculo */
-
+    width: 2.2rem; // Ancho del círculo
+    height: 2.2rem; // Altura del círculo
+    background-color: map-get($color-pp, azul);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
     border-radius: 50%;
-
-    .icono-in {
+    .icono-contacto {
+        font-size: 1.2rem;
         color: map-get($color-pp, blanco);
-
         &:hover {
-            color: map-get($color-pp, linkedin);
+            color: map-get($color-pp, azul);
         }
     }
-
     &:hover {
-        color: map-get($color-pp, blanco);
-        background-color: map-get($color-pp, linkedin);
+        background-color: map-get($color-pp, blanco);
     }
 }

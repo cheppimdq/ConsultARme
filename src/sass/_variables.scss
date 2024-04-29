@@ -17,10 +17,8 @@ $color-pp: (
     negro-1: #333333,
     negro: #000000,
     rojo: #d14642,
-    rojito: #DB5461,
-    whatsapp: #128851,
-    linkedin: #3b70d8 ,
-    azul-consultarme: #51a8b1,
+    verde: #128851,
+    azul: #3b70d8 ,
 );
 
 @mixin enlace-pp($color-link, $color-hover, $color-activo) {
@@ -49,17 +47,4 @@ $color-pp: (
     flex-wrap: wrap;
     // justify-content: center; 
     // align-content: center;
-}
-
-%columna-pp {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-};
-
-%parallax-pp {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
