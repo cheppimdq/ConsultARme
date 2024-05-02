@@ -28,11 +28,11 @@ const CustomPrevArrow = (props) => {
 export const AsideClientes = () => {
     const settings = {
         infinite: true,
-        speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 1,
+        speed: 1500, // Aumenta la velocidad para hacer la transición más lenta y suave
+        slidesToShow: 4, // Muestra menos diapositivas a la vez
+        slidesToScroll: 4, // Desplázate una diapositiva a la vez
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 4000, // Incrementa el tiempo entre diapositivas para hacerlo más lento
         nextArrow: <CustomNextArrow />,
         prevArrow: <CustomPrevArrow />,
         responsive: [

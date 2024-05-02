@@ -6,21 +6,21 @@
 
 // NAV CON CAMBIO DE COLOR EN JS
 .nav-negro {
-    background-color: map-get($color-pp, negro); /* Color inicial */
+    background-color: rgba(map-get($color-pp, negro-1), 0.9);  /* Celeste con 50% de transparencia */
     z-index: 1000; /* Asegura que esté encima de otros elementos */
     width: 100%;
-    transition: background-color 0.3s ease; /* Transición suave del color */
+    transition: background-color 0.5s ease; /* Transición suave del color */
     @media (min-width: 768px) {
         background-color: transparent; // Cambia a transparente en pantallas grandes
     }
     &.scrolled {
-        background-color: map-get($color-pp, negro); // Vuelve a ser negro al hacer scroll
+        background-color: rgba(map-get($color-pp, negro-1), 0.9); /* Celeste con 50% de transparencia */
     }
 }
 
 // ALTURA HEADER
-.altura-100 { height: 72vh; }
-.altura-79 { height: 75vh; }
+.altura-100 { height: 100vh; }
+.altura-79 { height: 66vh; }
 
 // HEADERS VAN SEPARADOS AL FUNCIONAR DISTINTO EN INDEX Y RESTO DE PAGES
 .carousel-item  {

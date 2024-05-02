@@ -42,7 +42,7 @@ export const MainContacto = () => {
                                 <div>
                                     <h4 className="mb-0">Horario</h4>
                                     <p className="mb-0">Lunes a Viernes</p>
-                                    <p className="mb-0">8:00 - 17:00 Hs</p>
+                                    <p className="mb-0">8:30 - 16:30 Hs</p>
                                 </div>
                             </div>
                             <div className='mb-5 col-sm-6 d-flex align-items-center'>
