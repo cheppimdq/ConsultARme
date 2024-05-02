@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const MainPlanes = () => {
   const [activeTab, setActiveTab] = useState("p3-2"); // Inicia con el segundo plan activo

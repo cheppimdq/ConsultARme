@@ -23,7 +23,7 @@ export const HeaderSecundario = () => {
                         'https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
                         '',
                     ],
-                    textos: [ 'Ofrecemos excelentes planes de precios para todos' ]
+                    textos: [ 'Excelentes planes para todos' ]
                 };
             case '/contacto':
                 return {

@@ -52,7 +52,7 @@ export const HeaderFull = () => {
                         <img src="https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Foto de Leeloo The First: https://www.pexels.com/es-es/foto/telefono-inteligente-tecnologia-aplicacion-documento-8962447/"></img>
                         <div className="carousel-caption">
                             <a href=""><h2>Servicios</h2></a>
-                            <p>Ofrecemos excelentes planes de precios para todos</p>
+                            <p>Excelentes planes para todos</p>
                         </div>
                     </div>
 
@@ -60,7 +60,7 @@ export const HeaderFull = () => {
                         <img src="https://images.pexels.com/photos/6794967/pexels-photo-6794967.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="..."></img>
                         <div className="carousel-caption">
                             <a href=""><h2>Empresa</h2></a>
-                            <p>Servicios de consultoría para MIPYMES</p>
+                            <p>Consultoría para MIPYMES</p>
                         </div>
                     </div>
 
