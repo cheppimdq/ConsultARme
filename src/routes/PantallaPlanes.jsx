@@ -12,6 +12,7 @@ const PantallaPlanes = () => {
     <>
       <NavTransparente />
       <HeaderSecundario />
+      <AsideClientes />
       <MainPlanes />
       <AsideClientes />
       <BotonFlotante />

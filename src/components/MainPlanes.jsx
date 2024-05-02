@@ -66,7 +66,7 @@ export const MainPlanes = () => {
                     </div>
                   </div>
                   {/* Column */}
-                  <div className="col-lg-5 bg-image text-center align-items-end position-relative d-flex" style={{ backgroundImage: 'url(/bronce.jpg)' }}>
+                  <div className="col-lg-5 bg-image text-center align-items-end position-relative d-flex" style={{ backgroundImage: 'url(/ConsultARme/bronce.jpg)' }}>
                     <div className="quote-box">
                       <h3 className="text-white font-weight-light mb-4">Asistencia diaria, instalación, implementación y parametrización</h3>
                       <h6 className="text-white">Victoria Callegher</h6>
@@ -94,7 +94,7 @@ export const MainPlanes = () => {
                     </div>
                   </div>
                   {/* Column */}
-                  <div className="col-lg-5 bg-image text-center align-items-end position-relative d-flex" style={{ backgroundImage: 'url(/plata.jpg)' }}>
+                  <div className="col-lg-5 bg-image text-center align-items-end position-relative d-flex" style={{ backgroundImage: 'url(/ConsultARme/plata.jpg)' }}>
                     <div className="quote-box">
                       <h3 className="text-white font-weight-light mb-4">Asistencia diaria, instalación, implementación y parametrización</h3>
                       <h6 className="text-white">Victoria Callegher</h6>
@@ -118,11 +118,11 @@ export const MainPlanes = () => {
                       </ul>
                       <div className="d-flex align-items-center">
                         <span className="display-5 text-dark mr-3 font-weight-medium">$48.207</span>
-                      </div>
+                      </div>s
                     </div>
                   </div>
                   {/* Column */}
-                  <div className="col-lg-5 bg-image text-center align-items-end position-relative d-flex" style={{ backgroundImage: 'url(/oro.jpg)' }}>
+                  <div className="col-lg-5 bg-image text-center align-items-end position-relative d-flex" style={{ backgroundImage: 'url(/ConsultARme/oro.jpg)' }}>
                     <div className="quote-box">
                       <h3 className="text-white font-weight-light mb-4">Asistencia diaria, instalación, implementación y parametrización</h3>
                       <h6 className="text-white">Victoria Callegher</h6>
@@ -149,7 +149,7 @@ export const MainPlanes = () => {
                     </div>
                   </div>
                   {/* Column */}
-                  <div className="col-lg-5 bg-image text-center align-items-end position-relative d-flex" style={{ backgroundImage: 'url(/platino.jpg)' }}>
+                  <div className="col-lg-5 bg-image text-center align-items-end position-relative d-flex" style={{ backgroundImage: 'url(/ConsultARme/platino.jpg)' }}>
                     <div className="quote-box">
                     <h3 className="text-white font-weight-light mb-4">Asistencia diaria, instalación, implementación y parametrización</h3>
                       <h6 className="text-white">Victoria Callegher</h6>

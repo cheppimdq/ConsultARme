@@ -8,7 +8,7 @@ export const EquipoEmpresa = () => {
             <main className="container mt-4">
                 <div className="row link-negro d-flex justify-content-evenly">
                     <div className="col-md-3 mb-4 text-center pt-3 px-3">
-                        <img src="/victoria-1.jpg" alt="wrapkit" className="img-fluid rounded-circle" />
+                        <img src="/ConsultARme/victoria-1.jpg" alt="wrapkit" className="img-fluid rounded-circle" />
                         <h5 className="mt-3 mb-0 font-weight-medium">Victoria Callegher</h5>
                         <ul className="list-inline mt-2">
                             <li className="list-inline-item"><Link className="nav-link boton-in" href="https://www.linkedin.com/in/victoria-vanesa-callegher-a18880b9/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'linkedin-in']} className='icono-in' /></Link></li>
@@ -18,7 +18,7 @@ export const EquipoEmpresa = () => {
                     </div>
 
                     <div className="col-md-3 mb-4 text-center pt-3 px-3">
-                        <img src="/gus-1.jpg" alt="wrapkit" className="img-fluid rounded-circle" />
+                        <img src="/ConsultARme/gus-1.jpg" alt="wrapkit" className="img-fluid rounded-circle" />
                         <h5 className="mt-3 mb-0 font-weight-medium">Gustavo Boye</h5>
                         <ul className="list-inline mt-2">
                             <li className="list-inline-item"><Link className="nav-link boton-in" href="https://www.linkedin.com/in/gustavo-boye-80712772/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'linkedin-in']} className='icono-in' /></Link></li>

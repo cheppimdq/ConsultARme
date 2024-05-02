@@ -29,7 +29,7 @@ export const HeaderSecundario = () => {
                 return {
                     titulos: ["Contacto"], 
                     imagenes: [
-                        '/epuyen.jpg',
+                        '/ConsultARme/epuyen.jpg',
                         'https://images.pexels.com/photos/1714205/pexels-photo-1714205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
                     ],
                     textos: [ 'Comunicate con nosotros' ]
@@ -38,9 +38,9 @@ export const HeaderSecundario = () => {
                 return {
                     titulos: ["ChessBayi"],
                     imagenes: [
-                        '../src/assets/img/ajedrez-2.jpg',
-                        '../src/assets/img/ajedrez-3.jpg',
-                        '../src/assets/img/ajedrez-7.jpg'
+                        '/ConsultARme/',
+                        '/ConsultARme/',
+                        '/ConsultARme/'
                     ],
                     textos: [ 'Ajedrez al Paso' ]
                 };

@@ -4,14 +4,14 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const logosClientes = [
-    '/cliente-1.jpg',
-    '/cliente-2.jpg',
-    '/cliente-3.png',
-    '/cliente-4.png',
-    '/cliente-5.png',
-    '/cliente-6.png',
-    '/cliente-7.jpg',
-    '/cliente-8.png',
+    '/ConsultARme/cliente-1.jpg',
+    '/ConsultARme/cliente-2.jpg',
+    '/ConsultARme/cliente-3.png',
+    '/ConsultARme/cliente-4.png',
+    '/ConsultARme/cliente-5.png',
+    '/ConsultARme/cliente-6.png',
+    '/ConsultARme/cliente-7.jpg',
+    '/ConsultARme/cliente-8.png',
 ];
 
 // Componentes de flechas personalizados
@@ -27,7 +27,6 @@ const CustomPrevArrow = (props) => {
 
 export const AsideClientes = () => {
     const settings = {
-        dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 4,
@@ -59,11 +58,6 @@ export const AsideClientes = () => {
                 },
             },
         ],
-        appendDots: (dots) => (
-            <div style={{ marginTop: '10px', textAlign: 'center' }}>
-                <ul style={{ display: 'inline-block' }}> {dots.slice(0, 3)} </ul>
-            </div>
-        ),
     };
 
     return (

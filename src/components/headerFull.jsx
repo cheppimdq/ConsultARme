@@ -38,7 +38,7 @@ export const HeaderFull = () => {
                         </div>
                         <video
                             id="header-video"
-                            src="/headerfull.mp4"
+                            src="/ConsultARme/headerfull.mp4"
                             alt="Vídeo de Pressmaster: https://www.pexels.com/es-es/video/un-hombre-caminando-dentro-de-una-planta-de-produccion-3209176/"
                             type="video/mp4"
                             autoPlay  // Reproducción automática
