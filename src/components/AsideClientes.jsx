@@ -4,14 +4,14 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const logosClientes = [
-    '/ConsultARme/cliente-1.jpg',
-    '/ConsultARme/cliente-2.jpg',
-    '/ConsultARme/cliente-3.png',
-    '/ConsultARme/cliente-4.png',
-    '/ConsultARme/cliente-5.png',
-    '/ConsultARme/cliente-6.png',
-    '/ConsultARme/cliente-7.jpg',
-    '/ConsultARme/cliente-8.png',
+    '/cliente-1.jpg',
+    '/cliente-2.jpg',
+    '/cliente-3.png',
+    '/cliente-4.png',
+    '/cliente-5.png',
+    '/cliente-6.png',
+    '/cliente-7.jpg',
+    '/cliente-8.png',
 ];
 
 // Componentes de flechas personalizados
@@ -25,7 +25,7 @@ const CustomPrevArrow = (props) => {
     return <div className="custom-prev-arrow" onClick={onClick}></div>;
 };
 
-export const ClientesEmpresa = () => {
+export const AsideClientes = () => {
     const settings = {
         dots: true,
         infinite: true,
@@ -68,9 +68,8 @@ export const ClientesEmpresa = () => {
 
     return (
         <>
-            <article className="container link-negro mt-4">
-                <h3 className="col-sm-12">Tendencia</h3>
-                <div className="">
+            <aside className="container link-negro">
+                <div className="row mb-3">
                     <Slider {...settings}>
                         {logosClientes.map((logo, index) => (
                             <div className="col-sm-12 col-md-4 columna-articulo-footer p-3" key={index}>
@@ -79,7 +78,7 @@ export const ClientesEmpresa = () => {
                         ))}
                     </Slider>
                 </div>
-            </article>
+            </aside>
         </>
     );
 };

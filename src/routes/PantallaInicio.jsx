@@ -3,7 +3,7 @@ import React from 'react';
 import { NavTransparente } from '../components/NavTransparente.jsx';
 import { HeaderFull } from '../components/HeaderFull.jsx';
 import { MainIndex } from '../components/MainIndex.jsx';
-import { ClientesEmpresa } from '../components/ClientesEmpresa.jsx';
+import { AsideClientes } from '../components/AsideClientes.jsx';
 import { BotonFlotante } from '../components/BotonFlotante.jsx';
 import { FooterNegro } from '../components/FooterNegro.jsx';
 
@@ -13,7 +13,7 @@ const PantallaInicio = () => {
       <NavTransparente />
       <HeaderFull />
       <MainIndex />
-      <ClientesEmpresa />
+      <AsideClientes />
       <BotonFlotante />
       <FooterNegro />
     </>
