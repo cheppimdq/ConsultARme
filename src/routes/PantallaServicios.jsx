@@ -4,7 +4,6 @@ import { NavTransparente } from '../components/NavTransparente.jsx';
 import { HeaderSecundario } from '../components/HeaderSecundario.jsx';
 import { ServiciosMain } from '../components/ServiciosMain.jsx';
 import { ServiciosArticle } from '../components/ServiciosArticle.jsx';
-import { AsideVideos } from '../components/AsideVideos.jsx';
 import { BotonFlotante } from '../components/BotonFlotante.jsx';
 import { FooterNegro } from '../components/FooterNegro.jsx';
 
@@ -15,7 +14,6 @@ const PantallaServicios = () => {
       <HeaderSecundario />
       <ServiciosMain />
       <ServiciosArticle />
-      <AsideVideos />
       <BotonFlotante />
       <FooterNegro />
     </>
