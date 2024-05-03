@@ -2,7 +2,7 @@ import React from 'react';
 
 import { NavTransparente } from '../components/NavTransparente.jsx';
 import { HeaderSecundario } from '../components/HeaderSecundario.jsx';
-import { EquipoEmpresa } from '../components/EquipoEmpresa.jsx';
+import { ArticleEmpresa } from '../components/ArticleEmpresa.jsx';
 import { BotonFlotante } from '../components/BotonFlotante.jsx';
 import { FooterNegro } from '../components/FooterNegro.jsx';
 
@@ -11,7 +11,7 @@ const PantallaEmpresa = () => {
     <>
       <NavTransparente />
       <HeaderSecundario />
-      <EquipoEmpresa />
+      <ArticleEmpresa />
       <BotonFlotante />
       <FooterNegro />
     </>

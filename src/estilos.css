@@ -90,16 +90,14 @@ body {
   background-color: #000000;
 }
 
-.icon-check {
-  color: green;
-  font-size: 1.2rem;
-  background-color: lightgreen;
+.icono-verde {
+  font-size: 1.5rem;
+  color: #128851;
 }
 
-.icon-xmark {
-  color: red;
-  font-size: 1.2rem;
-  background-color: lightcoral;
+.icono-rojo {
+  font-size: 1.5rem;
+  color: #d14642;
 }
 
 .logo-pp {

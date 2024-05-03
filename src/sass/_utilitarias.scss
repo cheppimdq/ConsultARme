@@ -7,15 +7,13 @@
 .fondo-gris { background-color: map-get($color-pp, gris); }
 .fondo-negro { background-color: map-get($color-pp, negro); }
 
-// Estilos para los iconos
-.icon-check {
-    color: green; // Color verde para los iconos de check
-    font-size: 1.2rem; // Tamaño de fuente para los iconos
-    background-color: lightgreen; // Fondo verde claro para los iconos
-  }
-  
-  .icon-xmark {
-    color: red; // Color rojo para los iconos de xmark
-    font-size: 1.2rem; // Tamaño de fuente para los iconos
-    background-color: lightcoral; // Fondo rojo claro para los iconos
-  }
+// ICONOS
+.icono-verde {
+  font-size: 1.5rem;
+  color: map-get($color-pp, verde);
+};
+
+.icono-rojo {
+  font-size: 1.5rem;
+  color: map-get($color-pp, rojo);
+};
