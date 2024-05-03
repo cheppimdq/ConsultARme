@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 
-export const CardsEmpresa = () => {
+export const ContactoArticle = () => {
     return (
         <>
             <main className="container mt-4">

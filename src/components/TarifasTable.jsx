@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export const TablePlanes = () => {
+export const TarifasTable = () => {
     return (
         <>
-            <div className="container mt-4">
+            <div className="my-5">
+                <div className="p-5 text-center bg-body-tertiary">
+                <div className="container py-5">
                 <div className="table-responsive-sm">
-                    <table className="table table-hover table-borderless bg-white table-sm">
+                    <table className="table-borderless table-sm">
                         <thead className="border-bottom">
                             <tr className="text-center">
                                 <th scope="col" className="text-center text-nowrap">
@@ -32,7 +34,7 @@ export const TablePlanes = () => {
                             </tr>
                         </thead>
                         <tbody>
-                            <tr className="border-bottom bg-light">
+                            <tr className="border-bottom">
                                 <th scope="row" className="h6 py-3 font-weight-semibold text-nowrap border-0 mb-0">
                                     Asistencia en el uso diario
                                 </th>
@@ -47,7 +49,7 @@ export const TablePlanes = () => {
                                 </td>
                                 <td className="py-3 border-0 text-center">Máxima prioridad en la atención.</td>
                             </tr>
-                            <tr className="border-bottom bg-light">
+                            <tr className="border-bottom ">
                                 <th scope="row" className="h6 py-3 font-weight-semibold text-nowrap border-0 mb-0">
                                     Instalación y configuración de servidores y puestos
                                 </th>
@@ -62,7 +64,7 @@ export const TablePlanes = () => {
                                 </td>
                                 <td className="py-3 border-0 text-center">Asistencia mediante mesa de ayuda.</td>
                             </tr>
-                            <tr className="border-bottom bg-light">
+                            <tr className="border-bottom">
                                 <th scope="row" className="h6 py-3 font-weight-semibold text-nowrap border-0 mb-0">
                                     Implementación y parametrización
                                 </th>
@@ -77,7 +79,7 @@ export const TablePlanes = () => {
                                 </td>
                                 <td className="py-3 border-0 text-center">Asistencia en el uso diario del sistema.</td>
                             </tr>
-                            <tr className="border-bottom bg-light">
+                            <tr className="border-bottom">
                                 <th scope="row" className="h6 py-3 font-weight-semibold text-nowrap border-0 mb-0">Capacitacion Remota</th>
                                 <td className="py-3 border-0 text-center">
                                     <FontAwesomeIcon icon="times-circle" className="icono-rojo" />
@@ -88,7 +90,7 @@ export const TablePlanes = () => {
                                 <td className="py-3 border-0 text-center">Instructivos digitales para cada módulo.</td>
                                 <td className="py-3 border-0 text-center">Capacitaciones de Tango Delta Gestión, módulos ventas, compras, stock, tesorería, contabilidad, sueldos y liquidador de IVA.</td>
                             </tr>
-                            <tr className="border-bottom bg-light">
+                            <tr className="border-bottom">
                                 <th scope="row" className="h6 py-3 font-weight-semibold text-nowrap border-0 mb-0">Tarifas</th>
                                 <td className="py-3 border-0 text-center">Hasta 2 horas de trabajo.</td>
                                 <td className="py-3 border-0 text-center">Hasta 3 horas de trabajo.</td>
@@ -96,7 +98,7 @@ export const TablePlanes = () => {
                                 <td className="py-3 border-0 text-center">Sin límite.</td>
                             </tr>
                         </tbody>
-                        <tfoot className="bg-white">
+                        <tfoot className="">
                             <tr>
                                 <td colSpan="5" className="py-3 border-0 text-center">*exceso del límite mensual del paquete contratado $17,550.-</td>
                             </tr>
@@ -104,6 +106,12 @@ export const TablePlanes = () => {
                     </table>
                 </div>
             </div>
+                </div>
+            </div>
+
+
+
+            
 
         </>
     );

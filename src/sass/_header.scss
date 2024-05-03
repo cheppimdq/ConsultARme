@@ -8,7 +8,6 @@
 .nav-negro {
     background-color: rgba(map-get($color-pp, negro-1), 0.9);  /* Celeste con 50% de transparencia */
     z-index: 1000; /* Asegura que esté encima de otros elementos */
-    width: 100%;
     transition: background-color 0.5s ease; /* Transición suave del color */
     @media (min-width: 768px) {
         background-color: transparent; // Cambia a transparente en pantallas grandes

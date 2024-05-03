@@ -2,7 +2,8 @@ import React from 'react';
 
 import { NavTransparente } from '../components/NavTransparente.jsx';
 import { HeaderSecundario } from '../components/HeaderSecundario';
-import { MainContacto } from '../components/MainContacto.jsx';
+import { ContactoMain } from '../components/ContactoMain.jsx';
+import { ContactoArticle } from '../components/ContactoArticle.jsx';
 import { BotonFlotante } from '../components/BotonFlotante.jsx';
 import { FooterNegro } from '../components/FooterNegro.jsx';
 
@@ -11,8 +12,8 @@ const PantallaContacto = () => {
     <>
       <NavTransparente />
       <HeaderSecundario />
-      <MainContacto />
-
+      <ContactoMain />
+      <ContactoArticle />
       <BotonFlotante />
       <FooterNegro />
     </>

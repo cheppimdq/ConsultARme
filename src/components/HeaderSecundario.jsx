@@ -14,7 +14,7 @@ export const HeaderSecundario = () => {
                         'https://images.pexels.com/photos/6794967/pexels-photo-6794967.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
                         '',
                     ],
-                    textos: [ 'Servicios de consultoría para MIPYMES' ]
+                    textos: [ 'Asistencia Tango Delta remota' ]
                 };
             case '/tarifas':
                 return {
@@ -23,7 +23,7 @@ export const HeaderSecundario = () => {
                         'https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
                         '',
                     ],
-                    textos: [ 'Excelentes planes para todos' ]
+                    textos: [ 'Planes para MIPYMES' ]
                 };
             case '/contacto':
                 return {

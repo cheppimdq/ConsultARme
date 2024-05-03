@@ -5,7 +5,8 @@
 }
 
 body {
-  img { @extend %foto-pp; }
   overflow-x: hidden;
-  background-color: map-get($color-pp, blanco,); // buscar otro color!!!
 }
+
+// foto
+img { @extend %foto-pp; }

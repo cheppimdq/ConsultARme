@@ -2,8 +2,9 @@ import React from 'react';
 
 import { NavTransparente } from '../components/NavTransparente.jsx';
 import { HeaderSecundario } from '../components/HeaderSecundario.jsx';
-import { AsideClientes } from '../components/AsideClientes.jsx';
-import { MainServicios } from '../components/MainServicios.jsx';
+import { ServiciosMain } from '../components/ServiciosMain.jsx';
+import { ServiciosArticle } from '../components/ServiciosArticle.jsx';
+import { AsideVideos } from '../components/AsideVideos.jsx';
 import { BotonFlotante } from '../components/BotonFlotante.jsx';
 import { FooterNegro } from '../components/FooterNegro.jsx';
 
@@ -12,9 +13,9 @@ const PantallaServicios = () => {
     <>
       <NavTransparente />
       <HeaderSecundario />
-      <AsideClientes />
-      <MainServicios />
-      <AsideClientes />
+      <ServiciosMain />
+      <ServiciosArticle />
+      <AsideVideos />
       <BotonFlotante />
       <FooterNegro />
     </>

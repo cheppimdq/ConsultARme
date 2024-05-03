@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import "bootstrap/dist/css/bootstrap.min.css";
-.carousel-item img, .carousel-item video, .logo-pp, body img {
+.carousel-item img, .carousel-item video, .logo-pp, img {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -20,8 +20,8 @@
 
 body {
   overflow-x: hidden;
-  background-color: #ffffff;
 }
+
 .link-blanco a, .link-blanco .nav-link, .link-blanco i, .link-blanco button {
   font-size: 1rem;
   text-decoration: none;
@@ -107,7 +107,6 @@ body {
 .nav-negro {
   background-color: rgba(51, 51, 51, 0.9); /* Celeste con 50% de transparencia */
   z-index: 1000; /* Asegura que esté encima de otros elementos */
-  width: 100%;
   transition: background-color 0.5s ease; /* Transición suave del color */
 }
 @media (min-width: 768px) {
