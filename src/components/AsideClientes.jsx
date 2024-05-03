@@ -53,21 +53,19 @@ export const AsideClientes = () => {
 
     return (
         <>
-            <div className="my-3">
-                <div className="p-3 text-center bg-body-tertiary">
-                    <div className="container py-3">
-                        <Slider {...settings}>
-                            {logosClientes.map((logo, index) => (
-                                <div className="col-sm-12 col-md-4 p-3" key={index}>
-                                    <Link to={logo.url} target="_blank" rel="noopener noreferrer">
-                                        <img src={logo.image} alt={`Cliente ${index + 1}`} />
-                                    </Link>
-                                </div>
-                            ))}
-                        </Slider>
-                    </div>
-                </div>
+
+            <div className="container py-3">
+                <Slider {...settings}>
+                    {logosClientes.map((logo, index) => (
+                        <div className="col-sm-12 col-md-4 px-3" key={index}>
+                            <Link to={logo.url} target="_blank" rel="noopener noreferrer">
+                                <img src={logo.image} alt={`Cliente ${index + 1}`} />
+                            </Link>
+                        </div>
+                    ))}
+                </Slider>
             </div>
+
         </>
     );
 };

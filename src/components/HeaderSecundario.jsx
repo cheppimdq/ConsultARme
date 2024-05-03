@@ -7,18 +7,18 @@ export const HeaderSecundario = () => {
 
     const obtenerContenidoPorSeccion = () => {
         switch (pathname) {
-            case '/empresa':
+            case '/servicios':
                 return {
-                    titulos: ["Empresa"],
+                    titulos: ["Servicios"],
                     imagenes: [
                         'https://images.pexels.com/photos/6794967/pexels-photo-6794967.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
                         '',
                     ],
                     textos: [ 'Servicios de consultoría para MIPYMES' ]
                 };
-            case '/servicios':
+            case '/tarifas':
                 return {
-                    titulos: ["Servicios"],
+                    titulos: ["Tarifas"],
                     imagenes: [
                         'https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
                         '',

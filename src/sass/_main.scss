@@ -3,6 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+
     img {
         max-width: 100px;
         height: auto;
@@ -26,12 +27,15 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
     border-radius: 50%;
+
     .icono-in {
         color: map-get($color-pp, blanco);
+
         &:hover {
             color: map-get($color-pp, azul);
         }
     }
+
     &:hover {
         background-color: map-get($color-pp, blanco);
     }
@@ -39,115 +43,50 @@
 
 // BOTON CONTACTO
 .boton-contacto {
-    display: flex; /* Añade display: flex para centrar vertical y horizontalmente */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+    display: flex;
+    /* Añade display: flex para centrar vertical y horizontalmente */
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
     width: 2.2rem; // Ancho del círculo
     height: 2.2rem; // Altura del círculo
     background-color: map-get($color-pp, azul);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
     border-radius: 50%;
+
     .icono-contacto {
         font-size: 1.2rem;
         color: map-get($color-pp, blanco);
+
         &:hover {
             color: map-get($color-pp, azul);
         }
     }
+
     &:hover {
         background-color: map-get($color-pp, blanco);
     }
 }
 
-// MAIN TARIFAS - HAY QUE RESUMIRLO
-$color-gray: #767676;
-$color-dark: #333333;
-$color-pink: #000000;
+// BOTON PLANES
+.boton-planes {
+    display: flex;
+    /* Añade display: flex para centrar vertical y horizontalmente */
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    font-size: 1.5rem;
+    width: 2.5rem; // Ancho del círculo
+    height: 2.5rem; // Altura del círculo
+    background-color: map-get($color-pp, celeste);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
 
-.pricing3 {
-  color: $color-gray;
-  font-weight: 300;
-
-  h1, h2, h3, h4, h5, h6 {
-    color: $color-dark;
-  }
-
-  .subtitle {
-    color: $color-gray;
-    line-height: 24px;
-  }
-
-  .nav-pills {
-    border: 1px solid rgba(120, 130, 140, 0.13);
-    border-radius: 4px;
-  }
-
-  .nav-pills .nav-link {
-    padding: 20px 15px;
-    h2 {
-      color: $color-gray;
-    }
-  }
-
-  .nav-pills .nav-link.active {
-    background: #fff;
-    border-left: 3px solid $color-pink;
-    margin-left: -3px;
-    h2 {
-      color: $color-dark;
-    }
-  }
-
-  .tab-content {
-    background: #fff;
-    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
-  }
-
-  .tab-content .pricing-box {
-    padding: 30px 50px;
-  }
-
-  .tab-content .list-inline {
-    margin-top: 20px;
-    li {
-      padding: 20px 0;
-      font-weight: 400;
-      span {
-        display: inline-block;
-        vertical-align: middle;
-      }
-      i {
-        font-size: 30px;
-        vertical-align: middle;
-        width: 60px;
-        opacity: 0.5;
-      }
-    }
-  }
-
-  .tab-content .bg-image {
-    background-size: cover;
-    .quote-box {
-      padding: 30px;
-    }
-  }
-
-  @media (max-width: 767px) {
-    .nav-pills .nav-link {
-      padding: 15px 12px;
+    .icono-planes {
+        color: map-get($color-pp, blanco);
     }
 
-    .nav-pills .nav-link.active {
-      border-left: 0;
-      border-top: 3px solid $color-pink;
-      margin-top: -4px;
-      margin-left: 0;
-      margin-bottom: -1px;
-    }
-
-    .tab-content .pricing-box {
-      padding: 15px;
-    }
-  }
 }
