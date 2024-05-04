@@ -49,7 +49,7 @@ export const HeaderFull = () => {
                     </div>
 
                     <div className="carousel-item altura-100">
-                        <img src="https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Foto de Leeloo The First: https://www.pexels.com/es-es/foto/telefono-inteligente-tecnologia-aplicacion-documento-8962447/"></img>
+                        <img src="/ConsultARme/1.jpg"></img>
                         <div className="carousel-caption">
                             <a href=""><h2>Servicios</h2></a>
                             <p>Asistencia Tango Delta remota</p>
@@ -57,7 +57,7 @@ export const HeaderFull = () => {
                     </div>
 
                     <div className="carousel-item altura-100">
-                        <img src="https://images.pexels.com/photos/6794967/pexels-photo-6794967.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="..."></img>
+                        <img src="/ConsultARme/2.jpg" alt="..."></img>
                         <div className="carousel-caption">
                             <a href=""><h2>Tarifas</h2></a>
                             <p>Planes para MIPYMES</p>
@@ -65,7 +65,7 @@ export const HeaderFull = () => {
                     </div>
 
                     <div className="carousel-item altura-100">
-                        <img src="/ConsultARme/epuyen.jpg" alt="..."></img>
+                        <img src="/ConsultARme/3.jpg" alt="..."></img>
                         <div className="carousel-caption">
                             <a href=""><h2>Contacto</h2></a>
                             <p>Comunicate con nosotros</p>

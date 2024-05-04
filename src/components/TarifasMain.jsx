@@ -3,7 +3,7 @@ import React from 'react';
 export const TarifasMain = () => {
     return (
         <div className="my-3">
-            <div className="p-5 text-center">
+            <div className="p-5 text-center fondo-gris">
                 <div className="container p-3">
                     <div className="row g-5 link-negro">
                         {/* BRONCE */}

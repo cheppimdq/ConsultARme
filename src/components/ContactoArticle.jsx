@@ -6,7 +6,7 @@ export const ContactoArticle = () => {
     return (
         <>
             <div className="my-4">
-                <div className="p-3 text-center bg-body-tertiary">
+                <div className="p-3 text-center fondo-gris">
                     <div className="container py-3">
                         <div className="row my-4 link-negro ">
                             <div className="col-sm-12 col-md-6 d-flex gap-4 p-3 justify-content-center align-items-center">
@@ -55,7 +55,7 @@ export const ContactoArticle = () => {
 
 
             <aside className="container-fluid">
-                <iframe className="footer-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1477.1660027381708!2d-71.36288677939112!3d-42.22871954622175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961b87d8d8391ad7%3A0xff6964d741c7b3b6!2zRXB1ecOpbiwgQ2h1YnV0!5e0!3m2!1ses!2sar!4v1714790563344!5m2!1ses!2sar" loading="lazy"></iframe>
+                <iframe className="footer-maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2954.228644490804!2d-71.363502!3d-42.230928!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961b87d8d8391ad7%3A0xff6964d741c7b3b6!2zRXB1ecOpbiwgQ2h1YnV0!5e0!3m2!1ses!2sar!4v1714827507479!5m2!1ses!2sar" loading="lazy"></iframe>
             </aside>
 
         </>

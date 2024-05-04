@@ -4,8 +4,8 @@ export const AsideVideos = () => {
     return (
         <>
             <div className="my-4">
-                <div className="p-3 text-center bg-body-tertiary">
-                    <article className="container mt-4 link-negro">
+                <div className="p-3 text-center fondo-gris">
+                    <article className="container py-3 link-negro">
                         <div className="row">
 
                             <div className="col-md-4">

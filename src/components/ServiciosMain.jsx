@@ -4,12 +4,12 @@ export const ServiciosMain = () => {
   return (
     <>
       <div className="my-4">
-        <div className="p-3 text-center bg-body-tertiary">
+        <div className="p-3 text-center fondo-gris">
           <div className="container py-3">
             <div className="row flex-lg-row-reverse align-items-center">
               <div className="col-sm-12 col-md-6">
                 <img
-                  src="/ConsultARme/tango.png"
+                  src="/ConsultARme/dispositivo-1.png"
                   className="d-block mx-lg-auto"
                   alt="Bootstrap Themes"
                   width="700"

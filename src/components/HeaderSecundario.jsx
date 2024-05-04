@@ -11,7 +11,7 @@ export const HeaderSecundario = () => {
                 return {
                     titulos: ["Servicios"],
                     imagenes: [
-                        'https://images.pexels.com/photos/6794967/pexels-photo-6794967.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+                        '/ConsultARme/1.jpg',
                         '',
                     ],
                     textos: [ 'Asistencia Tango Delta remota' ]
@@ -20,7 +20,7 @@ export const HeaderSecundario = () => {
                 return {
                     titulos: ["Tarifas"],
                     imagenes: [
-                        'https://images.pexels.com/photos/212286/pexels-photo-212286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+                        '/ConsultARme/2.jpg',
                         '',
                     ],
                     textos: [ 'Planes para MIPYMES' ]
@@ -29,7 +29,7 @@ export const HeaderSecundario = () => {
                 return {
                     titulos: ["Contacto"], 
                     imagenes: [
-                        '/ConsultARme/epuyen.jpg',
+                        '/ConsultARme/3.jpg',
                         'https://images.pexels.com/photos/1714205/pexels-photo-1714205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
                     ],
                     textos: [ 'Comunicate con nosotros' ]

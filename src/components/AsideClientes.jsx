@@ -50,7 +50,7 @@ export const AsideClientes = () => {
     return (
         <>
             <aside className="my-3">
-                <div className="p-3 text-center bg-">
+                <div className="p-3 text-center fondo-gris">
                     <div className="container py-3">
                         <Slider {...settings}>
                             {logosClientes.map((logo, index) => (
