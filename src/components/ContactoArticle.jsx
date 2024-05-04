@@ -5,29 +5,59 @@ import { Link } from 'react-router-dom';
 export const ContactoArticle = () => {
     return (
         <>
-            <main className="container mt-4">
-                <div className="row link-negro d-flex justify-content-evenly">
-                    <div className="col-md-3 mb-4 text-center pt-3 px-3">
-                        <img src="/ConsultARme/victoria-1.jpg" alt="wrapkit" className="img-fluid rounded-circle" />
-                        <h5 className="mt-3 mb-0 font-weight-medium">Victoria Callegher</h5>
-                        <ul className="list-inline mt-2">
-                            <li className="list-inline-item"><Link className="nav-link boton-in" href="https://www.linkedin.com/in/victoria-vanesa-callegher-a18880b9/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'linkedin-in']} className='icono-in' /></Link></li>
-                            <li className="list-inline-item"><Link className="nav-link" href="https://www.linkedin.com/in/victoria-vanesa-callegher-a18880b9/" target="_blank" rel="noopener noreferrer"><h6 className="subtitle mb-0">Socia en ConsultARme</h6></Link></li>
-                        </ul>
-                        <p className='mt-3'>Capacitación e implementación de Sistema Tango Gestión, soporte al cliente vía mesa de ayuda y supervisión de equipo técnico.</p>
-                    </div>
+            <div className="my-4">
+                <div className="p-3 text-center bg-body-tertiary">
+                    <div className="container py-3">
+                        <div className="row my-4 link-negro ">
+                            <div className="col-sm-12 col-md-6 d-flex gap-4 p-3 justify-content-center align-items-center">
+                                <div className='boton-contacto'>
+                                    <Link to="#" className="icono-contacto"><FontAwesomeIcon icon="fa-solid fa-phone" /></Link>
+                                </div>
+                                <div className="text-start">
+                                    <h3 className="fw-bold mb-0 fs-4 text-body-emphasis">Telefono</h3>
+                                    <Link to="#" ><p>+54 221 5923513</p></Link>
+                                </div>
+                            </div>
+                            
+                            <div className="col-sm-12 col-md-6 d-flex gap-4 p-3 justify-content-center align-items-center">
+                                <div className='boton-contacto'>
+                                    <Link to="#" className="icono-contacto"><FontAwesomeIcon icon="fa-solid fa-clock" /></Link>
+                                </div>
+                                <div className="text-start">
+                                    <h3 className="fw-bold mb-0 fs-4 text-body-emphasis">Horario</h3>
+                                    <p>Lunes a viernes de 8:30 a 16:30 Hs</p>
+                                </div>
+                            </div>
+                            <div className="col-sm-12 col-md-6 d-flex gap-4 p-3 justify-content-center align-items-center">
+                                <div className='boton-contacto'>
+                                    <Link to="#" className="icono-contacto"><FontAwesomeIcon icon="fa-solid fa-envelope" /></Link>
+                                </div>
+                                <div className="text-start">
+                                    <h3 className="fw-bold mb-0 fs-4 text-body-emphasis">Correo</h3>
+                                    <Link to="#" ><p>info@gmail.com</p></Link>
+                                </div>
+                            </div>
+                            <div className="col-sm-12 col-md-6 d-flex gap-4 p-3 justify-content-center align-items-center">
+                                <div className='boton-contacto'>
+                                    <Link to="#" className="icono-contacto"><FontAwesomeIcon icon="fa-solid fa-map-location-dot" /></Link>
+                                </div>
+                                <div className="text-start">
+                                    <h3 className="fw-bold mb-0 fs-4 text-body-emphasis">Dirección</h3>
+                                    <p>Direcccion 125, Epuyén, Argentina</p>
+                                </div>
+                            </div>
 
-                    <div className="col-md-3 mb-4 text-center pt-3 px-3">
-                        <img src="/ConsultARme/gus-1.jpg" alt="wrapkit" className="img-fluid rounded-circle" />
-                        <h5 className="mt-3 mb-0 font-weight-medium">Gustavo Boye</h5>
-                        <ul className="list-inline mt-2">
-                            <li className="list-inline-item"><Link className="nav-link boton-in" href="https://www.linkedin.com/in/gustavo-boye-80712772/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'linkedin-in']} className='icono-in' /></Link></li>
-                            <li className="list-inline-item"><Link className="nav-link" href="https://www.linkedin.com/in/gustavo-boye-80712772/" target="_blank" rel="noopener noreferrer"><h6 className="subtitle mb-0">Socio en ConsultARme</h6></Link></li>
-                        </ul>
-                        <p className='mt-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam illum non, doloribus nihil omnis harum commodi.</p>
+
+                        </div>
                     </div>
                 </div>
-            </main>
+            </div>
+
+
+            <aside className="container-fluid">
+                <iframe className="footer-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1477.1660027381708!2d-71.36288677939112!3d-42.22871954622175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961b87d8d8391ad7%3A0xff6964d741c7b3b6!2zRXB1ecOpbiwgQ2h1YnV0!5e0!3m2!1ses!2sar!4v1714790563344!5m2!1ses!2sar" loading="lazy"></iframe>
+            </aside>
+
         </>
     );
 };

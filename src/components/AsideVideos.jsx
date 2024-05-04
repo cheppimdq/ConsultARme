@@ -3,7 +3,6 @@ import React from 'react';
 export const AsideVideos = () => {
     return (
         <>
-
             <div className="my-4">
                 <div className="p-3 text-center bg-body-tertiary">
                     <article className="container mt-4 link-negro">
@@ -31,7 +30,6 @@ export const AsideVideos = () => {
                     </article>
                 </div>
             </div>
-
         </>
     );
 };

@@ -6,7 +6,7 @@
 .link-negro { a, .nav-link, i, button { @include enlace-pp(negro, negro-1, gris); } }
 
 // COLORES DE FONDO
-.fondo-gris { background-color: map-get($color-pp, gris); }
+.fondo-gris { background-color: map-get($color-pp, gris-1); }
 .fondo-negro { background-color: map-get($color-pp, negro); }
 
 // ICONOS

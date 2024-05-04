@@ -20,7 +20,7 @@ export const ServiciosMain = () => {
               <div className="col-sm-12 col-md-6">
                 <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Servicios Tango Delta en forma remota</h1>
                 <p className="lead">Asistencia para cualquier tipo de contingencia que surja en el uso diario del Sistema. Instalación del Sistema y Puestos de Tango. Parametrización del Tango Sueldos para la generación del Libro Sueldos Digital para AFIP.</p>
-                <button type="button" className="btn btn-warning btn-sm p-2 ">Planes y tarifas</button>
+                <button type="button" className="btn btn-danger btn-sm p-2 ">Planes y tarifas</button>
               </div>
             </div>
           </div>

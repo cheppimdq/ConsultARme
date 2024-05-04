@@ -3,7 +3,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-
     img {
         max-width: 100px;
         height: auto;
@@ -12,13 +11,52 @@
     }
 }
 
-// IFRAME DE GOOGLE 1 X 1 PERFECTO
-.iframe-maps {
-    width: 100%;
-    height: 100%;
+// MAPS FOOTER
+.footer-maps { 
+    @extend %foto-pp;
+    height: 66vh;
 }
 
-// BOTON LINKEDIN
+// BOTON PLANES
+.boton-planes {
+    display: flex; /* Añade display: flex para centrar vertical y horizontalmente */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    font-size: 1.5rem;
+    width: 2.5rem; // Ancho del círculo
+    height: 2.5rem; // Altura del círculo
+    background-color: map-get($color-pp, celeste);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    .icono-planes {
+        color: map-get($color-pp, blanco);
+    }
+}
+
+// BOTON CONTACTO
+.boton-contacto {
+    display: flex; /* Añade display: flex para centrar vertical y horizontalmente */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    font-size: 1.5rem;
+    width: 2.5rem; // Ancho del círculo
+    height:2.5rem; // Altura del círculo
+    background-color: map-get($color-pp, celeste);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    border-radius: 50%;
+    .icono-contacto {
+        color: map-get($color-pp, blanco);
+        &:hover {
+            color: map-get($color-pp, celeste);
+        }
+    }
+    &:hover {
+        background-color: map-get($color-pp, blanco);
+    }
+}
+
+// BOTON LINKEDIN - ver si se borra
 .boton-in {
     font-size: 1rem;
     width: 1.5rem; // Ancho del círculo
@@ -27,66 +65,13 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
     border-radius: 50%;
-
     .icono-in {
         color: map-get($color-pp, blanco);
-
         &:hover {
             color: map-get($color-pp, azul);
         }
     }
-
     &:hover {
         background-color: map-get($color-pp, blanco);
     }
-}
-
-// BOTON CONTACTO
-.boton-contacto {
-    display: flex;
-    /* Añade display: flex para centrar vertical y horizontalmente */
-    justify-content: center;
-    /* Centra horizontalmente */
-    align-items: center;
-    /* Centra verticalmente */
-    width: 2.2rem; // Ancho del círculo
-    height: 2.2rem; // Altura del círculo
-    background-color: map-get($color-pp, azul);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease;
-    border-radius: 50%;
-
-    .icono-contacto {
-        font-size: 1.2rem;
-        color: map-get($color-pp, blanco);
-
-        &:hover {
-            color: map-get($color-pp, azul);
-        }
-    }
-
-    &:hover {
-        background-color: map-get($color-pp, blanco);
-    }
-}
-
-// BOTON PLANES
-.boton-planes {
-    display: flex;
-    /* Añade display: flex para centrar vertical y horizontalmente */
-    justify-content: center;
-    /* Centra horizontalmente */
-    align-items: center;
-    /* Centra verticalmente */
-    font-size: 1.5rem;
-    width: 2.5rem; // Ancho del círculo
-    height: 2.5rem; // Altura del círculo
-    background-color: map-get($color-pp, celeste);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
-
-    .icono-planes {
-        color: map-get($color-pp, blanco);
-    }
-
 }

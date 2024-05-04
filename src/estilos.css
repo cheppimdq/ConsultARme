@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import "bootstrap/dist/css/bootstrap.min.css";
-.carousel-item img, .carousel-item video, .logo-pp, img {
+.footer-maps, .carousel-item img, .carousel-item video, .logo-pp, img {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -65,7 +65,7 @@ body {
 .link-negro a, .link-negro .nav-link, .link-negro i, .link-negro button {
   font-size: 1rem;
   text-decoration: none;
-  color: #000000;
+  color: #212529;
 }
 .link-negro a:hover, .link-negro .nav-link:hover, .link-negro i:hover, .link-negro button:hover {
   color: #333333;
@@ -83,11 +83,11 @@ body {
 }
 
 .fondo-gris {
-  background-color: #767676;
+  background-color: #F1F3F4;
 }
 
 .fondo-negro {
-  background-color: #000000;
+  background-color: #212529;
 }
 
 .icono-verde {
@@ -105,7 +105,7 @@ body {
 }
 
 .nav-negro {
-  background-color: rgba(51, 51, 51, 0.9); /* Celeste con 50% de transparencia */
+  background-color: rgba(33, 37, 41, 0.9); /* Celeste con 50% de transparencia */
   z-index: 1000; /* Asegura que esté encima de otros elementos */
   transition: background-color 0.5s ease; /* Transición suave del color */
 }
@@ -115,15 +115,15 @@ body {
   }
 }
 .nav-negro.scrolled {
-  background-color: rgba(51, 51, 51, 0.9); /* Celeste con 50% de transparencia */
+  background-color: rgba(33, 37, 41, 0.9); /* Celeste con 50% de transparencia */
 }
 
 .altura-100 {
-  height: 75vh;
+  height: 72vh;
 }
 
 .altura-79 {
-  height: 75vh;
+  height: 72vh;
 }
 
 .carousel-item {
@@ -175,9 +175,45 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.iframe-maps {
-  width: 100%;
-  height: 100%;
+.footer-maps {
+  height: 66vh;
+}
+
+.boton-planes {
+  display: flex; /* Añade display: flex para centrar vertical y horizontalmente */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  font-size: 1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #4285F4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+.boton-planes .icono-planes {
+  color: #ffffff;
+}
+
+.boton-contacto {
+  display: flex; /* Añade display: flex para centrar vertical y horizontalmente */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  font-size: 1.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #4285F4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  border-radius: 50%;
+}
+.boton-contacto .icono-contacto {
+  color: #ffffff;
+}
+.boton-contacto .icono-contacto:hover {
+  color: #4285F4;
+}
+.boton-contacto:hover {
+  background-color: #ffffff;
 }
 
 .boton-in {
@@ -197,49 +233,6 @@ body {
 }
 .boton-in:hover {
   background-color: #ffffff;
-}
-
-.boton-contacto {
-  display: flex;
-  /* Añade display: flex para centrar vertical y horizontalmente */
-  justify-content: center;
-  /* Centra horizontalmente */
-  align-items: center;
-  /* Centra verticalmente */
-  width: 2.2rem;
-  height: 2.2rem;
-  background-color: #3b70d8;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease;
-  border-radius: 50%;
-}
-.boton-contacto .icono-contacto {
-  font-size: 1.2rem;
-  color: #ffffff;
-}
-.boton-contacto .icono-contacto:hover {
-  color: #3b70d8;
-}
-.boton-contacto:hover {
-  background-color: #ffffff;
-}
-
-.boton-planes {
-  display: flex;
-  /* Añade display: flex para centrar vertical y horizontalmente */
-  justify-content: center;
-  /* Centra horizontalmente */
-  align-items: center;
-  /* Centra verticalmente */
-  font-size: 1.5rem;
-  width: 2.5rem;
-  height: 2.5rem;
-  background-color: #51a8b1;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-}
-.boton-planes .icono-planes {
-  color: #ffffff;
 }
 
 .boton-wp {
@@ -267,7 +260,7 @@ body {
 
 .footer-negro {
   height: 42vh;
-  background-color: #333333;
+  background-color: #212529;
   z-index: 1020;
 }
 .footer-negro a, .footer-negro .nav-link, .footer-negro i, .footer-negro button {
