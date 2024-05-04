@@ -65,7 +65,7 @@ export const HeaderFull = () => {
                     </div>
 
                     <div className="carousel-item altura-100">
-                        <img src="/ConsultARme/3.jpg" alt="..."></img>
+                        <img src="/ConsultARme/4.jpg" alt="..."></img>
                         <div className="carousel-caption">
                             <a href=""><h2>Contacto</h2></a>
                             <p>Comunicate con nosotros</p>

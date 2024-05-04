@@ -29,7 +29,7 @@ export const HeaderSecundario = () => {
                 return {
                     titulos: ["Contacto"], 
                     imagenes: [
-                        '/ConsultARme/3.jpg',
+                        '/ConsultARme/4.jpg',
                         'https://images.pexels.com/photos/1714205/pexels-photo-1714205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
                     ],
                     textos: [ 'Comunicate con nosotros' ]

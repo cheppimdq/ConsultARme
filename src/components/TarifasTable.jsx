@@ -91,11 +91,11 @@ export const TarifasTable = () => {
                                 <td className="py-3 border-0 text-center">Capacitaciones de Tango Delta Gestión, módulos ventas, compras, stock, tesorería, contabilidad, sueldos y liquidador de IVA.</td>
                             </tr>
                             <tr className="border-bottom">
-                                <th scope="row" className="h6 py-3 font-weight-semibold text-nowrap border-0 mb-0">Tarifas</th>
-                                <td className="py-3 border-0 text-center">Hasta 2 horas de trabajo.</td>
-                                <td className="py-3 border-0 text-center">Hasta 3 horas de trabajo.</td>
-                                <td className="py-3 border-0 text-center">Hasta 5 horas de trabajo.</td>
-                                <td className="py-3 border-0 text-center">Sin límite.</td>
+                                <th scope="row" className="h6 py-3 font-weight-semibold text-nowrap border-0 mb-0">Disponibilidad</th>
+                                <td className="py-3 border-0 text-center">Hasta 2 horas.</td>
+                                <td className="py-3 border-0 text-center">Hasta 3 horas.</td>
+                                <td className="py-3 border-0 text-center">Hasta 5 horas.</td>
+                                <td className="py-3 border-0 text-center">A convenir.</td>
                             </tr>
                         </tbody>
                         <tfoot className="">
