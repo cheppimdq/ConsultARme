@@ -29,7 +29,7 @@ export const ContactoMain = () => {
                 </div>
             </div>
 
-            {/* <main className="container mt-4">
+            <main className="container mt-4">
                 <div className="row link-negro d-flex justify-content-evenly">
                     <div className="col-md-3 mb-4 text-center pt-3 px-3">
                         <img src="/ConsultARme/victoria-1.jpg" alt="wrapkit" className="img-fluid rounded-circle" />
@@ -51,7 +51,7 @@ export const ContactoMain = () => {
                         <p className='mt-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam illum non, doloribus nihil omnis harum commodi.</p>
                     </div>
                 </div>
-            </main> */}
+            </main>
 
 
 

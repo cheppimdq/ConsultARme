@@ -9,6 +9,7 @@
     background-color: rgba(map-get($color-pp, negro), 0.9);  /* Celeste con 50% de transparencia */
     z-index: 1000; /* Asegura que esté encima de otros elementos */
     transition: background-color 0.5s ease; /* Transición suave del color */
+    
     @media (min-width: 768px) {
         background-color: transparent; // Cambia a transparente en pantallas grandes
     }
@@ -40,7 +41,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(33, 37, 41, 0.5);
     display: flex;
     flex-direction: column;
     justify-content: center;

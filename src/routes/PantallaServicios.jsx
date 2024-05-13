@@ -3,7 +3,7 @@ import React from 'react';
 import { NavTransparente } from '../components/NavTransparente.jsx';
 import { HeaderSecundario } from '../components/HeaderSecundario.jsx';
 import { ServiciosMain } from '../components/ServiciosMain.jsx';
-import { ServiciosArticle } from '../components/ServiciosArticle.jsx';
+import { ServiciosIconos } from '../components/ServiciosIconos.jsx';
 import { AsideClientes } from '../components/AsideClientes.jsx';
 import { AsideVideos } from '../components/AsideVideos.jsx';
 import { BotonFlotante } from '../components/BotonFlotante.jsx';
@@ -15,9 +15,10 @@ const PantallaServicios = () => {
       <NavTransparente />
       <HeaderSecundario />
       <ServiciosMain />
-      <ServiciosArticle />
-      <AsideClientes />
+      <ServiciosIconos />
       <AsideVideos />
+
+      <AsideClientes />
       <BotonFlotante />
       <FooterNegro />
     </>

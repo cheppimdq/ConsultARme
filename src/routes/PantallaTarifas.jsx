@@ -4,6 +4,7 @@ import { NavTransparente } from '../components/NavTransparente.jsx';
 import { HeaderSecundario } from '../components/HeaderSecundario.jsx';
 import { TarifasMain } from '../components/TarifasMain.jsx';
 import { TarifasTable } from '../components/TarifasTable.jsx';
+import { AsideClientes } from '../components/AsideClientes.jsx';
 import { BotonFlotante } from '../components/BotonFlotante.jsx'
 import { FooterNegro } from '../components/FooterNegro.jsx'
 
@@ -14,6 +15,7 @@ const PantallaTarifas = () => {
       <HeaderSecundario />
       <TarifasMain />
       <TarifasTable />
+      <AsideClientes />
       <BotonFlotante />
       <FooterNegro />
     </>
