@@ -2,11 +2,11 @@ import React from 'react';
 
 import { NavTransparente } from '../components/NavTransparente.jsx';
 import { HeaderSecundario } from '../components/HeaderSecundario.jsx';
-import { ServiciosMain } from '../components/ServiciosMain.jsx';
-import { ServiciosIconos } from '../components/ServiciosIconos.jsx';
+import { MainIndex } from '../components/Mains.jsx';
+import { IconosServicios } from '../components/Iconos.jsx';
 import { AsideClientes } from '../components/AsideClientes.jsx';
 import { AsideVideos } from '../components/AsideVideos.jsx';
-import { BotonFlotante } from '../components/BotonFlotante.jsx';
+import { AsideWp } from '../components/AsideWp.jsx';
 import { FooterNegro } from '../components/FooterNegro.jsx';
 
 const PantallaServicios = () => {
@@ -14,12 +14,12 @@ const PantallaServicios = () => {
     <>
       <NavTransparente />
       <HeaderSecundario />
-      <ServiciosMain />
-      <ServiciosIconos />
+      <MainIndex />
+      <IconosServicios />
       <AsideVideos />
 
       <AsideClientes />
-      <BotonFlotante />
+      <AsideWp />
       <FooterNegro />
     </>
   );

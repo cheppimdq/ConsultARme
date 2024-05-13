@@ -11,7 +11,7 @@ export const HeaderSecundario = () => {
                 return {
                     titulos: ["Servicios"],
                     imagenes: [
-                        '/ConsultARme/1.jpg',
+                        '/ConsultARme/header/header-1.jpg',
                         '',
                     ],
                     textos: [ 'Asistencia Tango Delta remota' ]
@@ -20,7 +20,7 @@ export const HeaderSecundario = () => {
                 return {
                     titulos: ["Tarifas"],
                     imagenes: [
-                        '/ConsultARme/2.jpg',
+                        '/ConsultARme/header/header-2.jpg',
                         '',
                     ],
                     textos: [ 'Planes para MIPYMES' ]
@@ -29,14 +29,14 @@ export const HeaderSecundario = () => {
                 return {
                     titulos: ["Contacto"], 
                     imagenes: [
-                        '/ConsultARme/4.jpg',
+                        '/ConsultARme/header/epuyen.jpg',
                         'https://images.pexels.com/photos/1714205/pexels-photo-1714205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
                     ],
                     textos: [ 'Comunicate con nosotros' ]
                 };
             default:
                 return {
-                    titulos: ["ChessBayi"],
+                    titulos: ["ConsultARme"],
                     imagenes: [
                         '/ConsultARme/',
                         '/ConsultARme/',

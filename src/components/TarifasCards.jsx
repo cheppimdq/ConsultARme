@@ -1,16 +1,16 @@
 import React from 'react';
 
-export const TarifasMain = () => {
+export const TarifasCards = () => {
     return (
-        <div className="my-3">
-            <div className="p-5 text-center fondo-gris">
+        <div className="fondo-gris">
+            <div className="p-5 text-center">
                 <div className="container p-3">
                     <div className="row g-5 link-negro">
                         {/* BRONCE */}
                         <div className="col-md-3">
                             <div className="card shadow border-0 fondo-gris">
-                                <img className="card-img-top" src="/ConsultARme/tango-2.jpg" alt="..." />
-                                <div class="card-body p-4">
+                                <img className="card-img-top" src="/ConsultARme/tango/tango-2.jpg" alt="..." />
+                                <div className="card-body p-4">
                                     <h5 className="card-title">Plan Cobre</h5>
                                     <p className="card-text">Asistencia en el uso diario</p>
                                     <p className="card-text">Instalación y configuración de servidores y puestos</p>
@@ -29,8 +29,8 @@ export const TarifasMain = () => {
                         {/* Otros planes aquí */}
                         <div className="col-md-3">
                             <div className="card shadow border-0 fondo-gris">
-                                <img className="card-img-top" src="/ConsultARme/tango-2.jpg" alt="..." />
-                                <div class="card-body p-4">
+                                <img className="card-img-top" src="/ConsultARme/tango/tango-2.jpg" alt="..." />
+                                <div className="card-body p-4">
                                     <h5 className="card-title">Plan Plata</h5>
                                     <p className="card-text">Asistencia en el uso diario</p>
                                     <p className="card-text">Instalación y configuración de servidores y puestos</p>
@@ -48,8 +48,8 @@ export const TarifasMain = () => {
                         {/* Otros planes aquí */}
                         <div className="col-md-3">
                             <div className="card shadow border-0 bg-warning">
-                                <img className="card-img-top" src="/ConsultARme/tango-2.jpg" alt="..." />
-                                <div class="card-body p-4">
+                                <img className="card-img-top" src="/ConsultARme/tango/tango-2.jpg" alt="..." />
+                                <div className="card-body p-4">
                                     <h5 className="card-title">Plan Oro</h5>
                                     <p className="card-text">Asistencia en el uso diario</p>
                                     <p className="card-text">Instalación y configuración de servidores y puestos</p>
@@ -68,8 +68,8 @@ export const TarifasMain = () => {
                         {/* Otros planes aquí */}
                         <div className="col-md-3">
                             <div className="card shadow border-0 fondo-gris">
-                                <img className="card-img-top" src="/ConsultARme/tango-2.jpg" alt="..." />
-                                <div class="card-body p-4">
+                                <img className="card-img-top" src="/ConsultARme/tango/tango-2.jpg" alt="..." />
+                                <div className="card-body p-4">
                                     <h5 className="card-title">Plan Platino</h5>
                                     <p className="card-text">Asistencia en el uso diario</p>
                                     <p className="card-text">Máxima prioridad en la atención</p>

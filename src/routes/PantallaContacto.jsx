@@ -2,9 +2,9 @@ import React from 'react';
 
 import { NavTransparente } from '../components/NavTransparente.jsx';
 import { HeaderSecundario } from '../components/HeaderSecundario';
-import { ContactoMain } from '../components/ContactoMain.jsx';
-import { ContactoArticle } from '../components/ContactoArticle.jsx';
-import { BotonFlotante } from '../components/BotonFlotante.jsx';
+import { MainContacto } from '../components/Mains.jsx';
+import { IconosContacto } from '../components/Iconos.jsx';
+import { AsideWp } from '../components/AsideWp.jsx';
 import { FooterNegro } from '../components/FooterNegro.jsx';
 
 const PantallaContacto = () => {
@@ -12,9 +12,9 @@ const PantallaContacto = () => {
     <>
       <NavTransparente />
       <HeaderSecundario />
-      <ContactoMain />
-      <ContactoArticle />
-      <BotonFlotante />
+      <MainContacto />
+      <IconosContacto />
+      <AsideWp />
       <FooterNegro />
     </>
   );

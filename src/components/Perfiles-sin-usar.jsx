@@ -6,30 +6,7 @@ export const ContactoMain = () => {
     return (
         <>
 
-            <div className="my-4">
-                <div className="p-3 text-center fondo-gris">
-                    <div className="container py-3">
-                        <div className="row flex-lg-row-reverse align-items-center">
-                            <div className="col-sm-12 col-md-6">
-                                <img
-                                    src="/ConsultARme/dispositivo-2.png"
-                                    className="d-block mx-lg-auto"
-                                    alt="Bootstrap Themes"
-                                    width="700"
-                                    height="500"
-                                    loading="lazy"
-                                />
-                            </div>
-                            <div className="col-sm-12 col-md-6">
-                                <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Servicios Tango Delta en forma remota</h1>
-                                <p className="lead">Asistencia para cualquier tipo de contingencia que surja en el uso diario del Sistema. Instalación del Sistema y Puestos de Tango. Parametrización del Tango Sueldos para la generación del Libro Sueldos Digital para AFIP.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <main className="container mt-4">
+            <div className="container mt-4">
                 <div className="row link-negro d-flex justify-content-evenly">
                     <div className="col-md-3 mb-4 text-center pt-3 px-3">
                         <img src="/ConsultARme/victoria-1.jpg" alt="wrapkit" className="img-fluid rounded-circle" />
@@ -51,7 +28,7 @@ export const ContactoMain = () => {
                         <p className='mt-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam illum non, doloribus nihil omnis harum commodi.</p>
                     </div>
                 </div>
-            </main>
+            </div>
 
 
 

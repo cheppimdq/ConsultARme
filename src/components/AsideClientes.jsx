@@ -5,23 +5,23 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const logosClientes = [
-    { url: 'https://www.ejemplo.com/cliente-1', image: '/ConsultARme/cliente-1.png' },
-    { url: 'https://www.ejemplo.com/cliente-2', image: '/ConsultARme/cliente-2.png' },
-    { url: 'https://www.ejemplo.com/cliente-3', image: '/ConsultARme/cliente-3.png' },
-    { url: 'https://www.ejemplo.com/cliente-4', image: '/ConsultARme/cliente-4.png' },
-    { url: 'https://www.ejemplo.com/cliente-5', image: '/ConsultARme/cliente-5.png' },
-    { url: 'https://www.ejemplo.com/cliente-6', image: '/ConsultARme/cliente-6.png' },
-    { url: 'https://www.ejemplo.com/cliente-7', image: '/ConsultARme/cliente-7.png' },
-    { url: 'https://www.ejemplo.com/cliente-8', image: '/ConsultARme/cliente-8.png' },
+    { url: 'https://www.ejemplo.com/cliente-1', image: '/ConsultARme/clientes/cliente-1.png' },
+    { url: 'https://www.ejemplo.com/cliente-2', image: '/ConsultARme/clientes/cliente-2.png' },
+    { url: 'https://www.ejemplo.com/cliente-3', image: '/ConsultARme/clientes/cliente-3.png' },
+    { url: 'https://www.ejemplo.com/cliente-4', image: '/ConsultARme/clientes/cliente-4.png' },
+    { url: 'https://www.ejemplo.com/cliente-5', image: '/ConsultARme/clientes/cliente-5.png' },
+    { url: 'https://www.ejemplo.com/cliente-6', image: '/ConsultARme/clientes/cliente-6.png' },
+    { url: 'https://www.ejemplo.com/cliente-7', image: '/ConsultARme/clientes/cliente-7.png' },
+    { url: 'https://www.ejemplo.com/cliente-8', image: '/ConsultARme/clientes/cliente-8.png' },
     
-    { url: 'https://www.ejemplo.com/cliente-1', image: '/ConsultARme/cliente-9.png' },
-    { url: 'https://www.ejemplo.com/cliente-2', image: '/ConsultARme/cliente-10.png' },
-    { url: 'https://www.ejemplo.com/cliente-3', image: '/ConsultARme/cliente-11.png' },
-    { url: 'https://www.ejemplo.com/cliente-4', image: '/ConsultARme/cliente-12.png' },
-    { url: 'https://www.ejemplo.com/cliente-5', image: '/ConsultARme/cliente-13.png' },
-    { url: 'https://www.ejemplo.com/cliente-6', image: '/ConsultARme/cliente-14.png' },
-    { url: 'https://www.ejemplo.com/cliente-7', image: '/ConsultARme/cliente-15.png' },
-    { url: 'https://www.ejemplo.com/cliente-8', image: '/ConsultARme/cliente-16.png' },
+    { url: 'https://www.ejemplo.com/cliente-1', image: '/ConsultARme/clientes/cliente-9.png' },
+    { url: 'https://www.ejemplo.com/cliente-2', image: '/ConsultARme/clientes/cliente-10.png' },
+    { url: 'https://www.ejemplo.com/cliente-3', image: '/ConsultARme/clientes/cliente-11.png' },
+    { url: 'https://www.ejemplo.com/cliente-4', image: '/ConsultARme/clientes/cliente-12.png' },
+    { url: 'https://www.ejemplo.com/cliente-5', image: '/ConsultARme/clientes/cliente-13.png' },
+    { url: 'https://www.ejemplo.com/cliente-6', image: '/ConsultARme/clientes/cliente-14.png' },
+    { url: 'https://www.ejemplo.com/cliente-7', image: '/ConsultARme/clientes/cliente-15.png' },
+    { url: 'https://www.ejemplo.com/cliente-8', image: '/ConsultARme/clientes/cliente-16.png' },
 ];
 
 export const AsideClientes = () => {

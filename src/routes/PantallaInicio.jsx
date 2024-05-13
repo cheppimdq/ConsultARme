@@ -1,11 +1,11 @@
 import React from 'react';
 import { NavTransparente } from '../components/NavTransparente.jsx';
 import { HeaderFull } from '../components/HeaderFull.jsx';
-import { ServiciosMain, ServiciosArticle1, ServiciosArticle2 } from '../components/ServiciosMain.jsx';
-import { ServiciosIconos } from '../components/ServiciosIconos.jsx';
-import { TarifasMain } from '../components/TarifasMain.jsx';
+import { MainIndex } from '../components/Mains.jsx';
+import { IconosServicios } from '../components/Iconos.jsx';
+import { TarifasCards } from '../components/TarifasCards.jsx';
 import { AsideClientes } from '../components/AsideClientes.jsx';
-import { BotonFlotante } from '../components/BotonFlotante.jsx';
+import { AsideWp } from '../components/AsideWp.jsx';
 import { FooterNegro } from '../components/FooterNegro.jsx';
 
 const PantallaInicio = () => {
@@ -13,18 +13,11 @@ const PantallaInicio = () => {
     <>
       <NavTransparente />
       <HeaderFull />
-
-      <ServiciosMain />
-      <ServiciosIconos />
-      <ServiciosArticle1 />
-      <TarifasMain />
-
-      <ServiciosArticle2 />
-
+      <MainIndex />
+      <IconosServicios />
+      <TarifasCards />
       <AsideClientes />
-
-
-      <BotonFlotante />
+      <AsideWp />
       <FooterNegro />
     </>
   );

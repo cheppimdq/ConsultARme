@@ -2,10 +2,11 @@ import React from 'react';
 
 import { NavTransparente } from '../components/NavTransparente.jsx';
 import { HeaderSecundario } from '../components/HeaderSecundario.jsx';
-import { TarifasMain } from '../components/TarifasMain.jsx';
+import { MainTarifas } from '../components/Mains.jsx';
+import { TarifasCards } from '../components/TarifasCards.jsx';
 import { TarifasTable } from '../components/TarifasTable.jsx';
 import { AsideClientes } from '../components/AsideClientes.jsx';
-import { BotonFlotante } from '../components/BotonFlotante.jsx'
+import { AsideWp } from '../components/AsideWp.jsx'
 import { FooterNegro } from '../components/FooterNegro.jsx'
 
 const PantallaTarifas = () => {
@@ -13,10 +14,11 @@ const PantallaTarifas = () => {
     <>
       <NavTransparente />
       <HeaderSecundario />
-      <TarifasMain />
+      <MainTarifas />
+      <TarifasCards />
       <TarifasTable />
       <AsideClientes />
-      <BotonFlotante />
+      <AsideWp />
       <FooterNegro />
     </>
   );

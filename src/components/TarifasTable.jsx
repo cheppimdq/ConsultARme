@@ -5,8 +5,8 @@ export const TarifasTable = () => {
     return (
         <>
             <div className="my-5">
-                <div className="p-5 text-center">
-                    <div className="container py-5">
+                <div className="text-center">
+                    <div className="container">
                         <div className="table-responsive-sm">
                             <table className="table table-borderless table-sm">
                                 <thead className="border-bottom">
@@ -33,7 +33,7 @@ export const TarifasTable = () => {
                                         </th>
                                     </tr>
                                 </thead>
-                                <tbody>
+                                <tbody className="border-bottom">
                                     <tr className="border-bottom">
                                         <th scope="row" className="h6 py-4 px-3 font-weight-semibold text-nowrap border-0 mb-0 text-center">
                                             Asistencia en el uso diario
@@ -99,8 +99,12 @@ export const TarifasTable = () => {
                                     </tr>
                                 </tbody>
                                 <tfoot className="">
-                                    <tr>
-                                        <td colSpan="5" className="py-3 border-0 text-center">*exceso del límite mensual del paquete contratado $17,550.-</td>
+                                    <tr className="mt-3">
+                                        <td colSpan="5" className="py-3 border-0 text-center">Tarifas de servicio: Si necesitas asistencia fuera de los días hábiles, habrá un costo adicional de $17,550 por cada hora.
+                                            Actualización de precios: El costo de tu paquete se ajustará mensualmente según la variación del Índice de Precios al Consumidor (IPC) del último mes, según los informes del INDEC.
+                                            Facturación y pagos: Te facturaremos al principio de cada mes, y deberás abonarla dentro de los primeros 10 días del período.
+                                            Recargos por mora: Si la factura no se paga a tiempo, se aplicará un recargo del 1% por día de retraso. Recuerda que las horas no utilizadas no son reembolsables y el reloj se reinicia cada mes.
+                                        </td>
                                     </tr>
                                 </tfoot>
                             </table>
