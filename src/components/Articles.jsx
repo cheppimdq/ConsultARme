@@ -14,7 +14,7 @@ export const ServiciosArticle1 = () => {
                             </div>
                             <div className="col-sm-12 col-md-6">
                                 <img
-                                    src="/ConsultARme/dispositivos/Personalizable--img.png"
+                                    src="/ConsultARme/dispositivos/dispositivo-8.png"
                                     className="d-block mx-lg-auto"
                                     alt="Bootstrap Themes"
                                     width="700"
@@ -40,7 +40,7 @@ export const ServiciosArticle2 = () => {
                         <div className="row flex-lg-row-reverse align-items-center">
                             <div className="col-sm-12 col-md-6">
                                 <img
-                                    src="/ConsultARme/dispositivos/Apertura_delta-v2.png"
+                                    src="/ConsultARme/dispositivos/dispositivo-6.png"
                                     className="d-block mx-lg-auto"
                                     alt="Bootstrap Themes"
                                     width="700"
