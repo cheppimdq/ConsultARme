@@ -2,9 +2,9 @@ import React from 'react';
 
 export const TarifasCards = () => {
     return (
-        <div className="fondo-gris">
-            <div className="p-5 text-center">
-                <div className="container p-3">
+        <div className="my-4 px-4 py-5 fondo-gris">
+            <div className="p-3 text-center">
+                <div className="container py-3" data-aos="fade-up">
                     <div className="row g-5 link-negro">
                         {/* BRONCE */}
                         <div className="col-md-3">

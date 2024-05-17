@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import "bootstrap/dist/css/bootstrap.min.css";
-.footer-maps, .carousel-item img, .carousel-item video, .logo-pp, img {
+.footer-maps, .carousel-item video, .carousel-item img, .logo-pp, img {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -22,62 +22,107 @@ body {
   overflow-x: hidden;
 }
 
-.link-blanco a, .link-blanco .nav-link, .link-blanco i, .link-blanco button {
+.link-blanco a,
+.link-blanco .nav-link,
+.link-blanco i,
+.link-blanco button {
   font-size: 1rem;
   text-decoration: none;
   color: #eeeeee;
 }
-.link-blanco a:hover, .link-blanco .nav-link:hover, .link-blanco i:hover, .link-blanco button:hover {
+.link-blanco a:hover,
+.link-blanco .nav-link:hover,
+.link-blanco i:hover,
+.link-blanco button:hover {
   color: #ffffff;
 }
-.link-blanco a.active, .link-blanco .nav-link.active, .link-blanco i.active, .link-blanco button.active {
+.link-blanco a.active,
+.link-blanco .nav-link.active,
+.link-blanco i.active,
+.link-blanco button.active {
   color: #cccccc;
 }
-.link-blanco a.active:hover, .link-blanco .nav-link.active:hover, .link-blanco i.active:hover, .link-blanco button.active:hover {
+.link-blanco a.active:hover,
+.link-blanco .nav-link.active:hover,
+.link-blanco i.active:hover,
+.link-blanco button.active:hover {
   color: #ffffff;
 }
 @media screen and (min-width: 640px) {
-  .link-blanco a, .link-blanco .nav-link, .link-blanco i, .link-blanco button {
+  .link-blanco a,
+  .link-blanco .nav-link,
+  .link-blanco i,
+  .link-blanco button {
     font-size: 1rem;
   }
 }
 
-.link-gris a, .link-gris .nav-link, .link-gris i, .link-gris button {
+.link-gris a,
+.link-gris .nav-link,
+.link-gris i,
+.link-gris button {
   font-size: 1rem;
   text-decoration: none;
   color: #cccccc;
 }
-.link-gris a:hover, .link-gris .nav-link:hover, .link-gris i:hover, .link-gris button:hover {
+.link-gris a:hover,
+.link-gris .nav-link:hover,
+.link-gris i:hover,
+.link-gris button:hover {
   color: #ffffff;
 }
-.link-gris a.active, .link-gris .nav-link.active, .link-gris i.active, .link-gris button.active {
+.link-gris a.active,
+.link-gris .nav-link.active,
+.link-gris i.active,
+.link-gris button.active {
   color: #767676;
 }
-.link-gris a.active:hover, .link-gris .nav-link.active:hover, .link-gris i.active:hover, .link-gris button.active:hover {
+.link-gris a.active:hover,
+.link-gris .nav-link.active:hover,
+.link-gris i.active:hover,
+.link-gris button.active:hover {
   color: #ffffff;
 }
 @media screen and (min-width: 640px) {
-  .link-gris a, .link-gris .nav-link, .link-gris i, .link-gris button {
+  .link-gris a,
+  .link-gris .nav-link,
+  .link-gris i,
+  .link-gris button {
     font-size: 1rem;
   }
 }
 
-.link-negro a, .link-negro .nav-link, .link-negro i, .link-negro button {
+.link-negro a,
+.link-negro .nav-link,
+.link-negro i,
+.link-negro button {
   font-size: 1rem;
   text-decoration: none;
   color: #212529;
 }
-.link-negro a:hover, .link-negro .nav-link:hover, .link-negro i:hover, .link-negro button:hover {
+.link-negro a:hover,
+.link-negro .nav-link:hover,
+.link-negro i:hover,
+.link-negro button:hover {
   color: #333333;
 }
-.link-negro a.active, .link-negro .nav-link.active, .link-negro i.active, .link-negro button.active {
+.link-negro a.active,
+.link-negro .nav-link.active,
+.link-negro i.active,
+.link-negro button.active {
   color: #767676;
 }
-.link-negro a.active:hover, .link-negro .nav-link.active:hover, .link-negro i.active:hover, .link-negro button.active:hover {
+.link-negro a.active:hover,
+.link-negro .nav-link.active:hover,
+.link-negro i.active:hover,
+.link-negro button.active:hover {
   color: #333333;
 }
 @media screen and (min-width: 640px) {
-  .link-negro a, .link-negro .nav-link, .link-negro i, .link-negro button {
+  .link-negro a,
+  .link-negro .nav-link,
+  .link-negro i,
+  .link-negro button {
     font-size: 1rem;
   }
 }
@@ -119,19 +164,25 @@ body {
 }
 
 .altura-100 {
-  height: 72vh;
+  height: 55vh;
 }
 
 .altura-79 {
-  height: 72vh;
+  height: 55vh;
 }
 
 .carousel-item {
   position: relative; /* Agrega posicionamiento relativo */
   z-index: 0; /* Asegura que esté detrás del nav */
 }
-.carousel-item img, .carousel-item video {
+.carousel-item img {
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-item video {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;

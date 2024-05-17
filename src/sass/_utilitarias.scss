@@ -1,21 +1,51 @@
-
-
 // LINKS
-.link-blanco { a, .nav-link, i, button { @include enlace-pp(blanco-1, blanco, blanco-2); } }
-.link-gris { a, .nav-link, i, button { @include enlace-pp(blanco-2, blanco, gris); } }
-.link-negro { a, .nav-link, i, button { @include enlace-pp(negro, negro-1, gris); } }
+.link-blanco {
+
+  a,
+  .nav-link,
+  i,
+  button {
+    @include enlace-pp(blanco-1, blanco, blanco-2);
+  }
+}
+
+.link-gris {
+
+  a,
+  .nav-link,
+  i,
+  button {
+    @include enlace-pp(blanco-2, blanco, gris);
+  }
+}
+
+.link-negro {
+
+  a,
+  .nav-link,
+  i,
+  button {
+    @include enlace-pp(negro, negro-1, gris);
+  }
+}
 
 // COLORES DE FONDO
-.fondo-gris { background-color: map-get($color-pp, gris-1); }
-.fondo-negro { background-color: map-get($color-pp, negro); }
+.fondo-gris {
+  background-color: map-get($color-pp, gris-1);
+}
 
-// ICONOS
+.fondo-negro {
+  background-color: map-get($color-pp, negro);
+}
+
+// ICONO VERDE
 .icono-verde {
   font-size: 1.5rem;
   color: map-get($color-pp, verde);
-};
+}
 
+// ICONO ROJO
 .icono-rojo {
   font-size: 1.5rem;
   color: map-get($color-pp, rojo);
-};
+}

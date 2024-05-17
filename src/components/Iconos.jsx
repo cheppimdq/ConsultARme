@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 export const IconosServicios = () => {
     return (
         <>
-            <div className="my-4">
-                <div className="p-3 text-center bg-body-tertiary">
-                    <div className="container py-3">
+            <div className="my-4 fondo-gris">
+                <div className="p-3 text-center">
+                    <div className="container py-3" data-aos="fade-up">
                         <div className="row my-4">
                             <div className="col-sm-12 col-md-4 d-flex gap-4 p-3">
                                 <div className='boton-planes'>
@@ -74,11 +74,11 @@ export const IconosServicios = () => {
 export const IconosContacto = () => {
     return (
         <>
-            <div className="my-4 fondo-gris">
-                <div className="p-3 text-start link-negro">
-                    <div className="container py-3">
+            <div className="my-5 fondo-gris">
+                <div className="p-3 link-negro">
+                    <div className="container py-3" data-aos="fade-up">
                         <div className="row my-4">
-                            <div className="col-sm-12 col-md-6 d-flex gap-4 p-3 justify-content-center align-items-center">
+                            <div className="col-sm-12 col-md-6 d-flex gap-4 p-4 justify-content-evenly">
                                 <div className='boton-contacto'>
                                     <Link to="#" className="icono-contacto"><FontAwesomeIcon icon="fa-solid fa-phone" /></Link>
                                 </div>
@@ -87,7 +87,7 @@ export const IconosContacto = () => {
                                     <Link to="#" ><p>+54 221 5923513</p></Link>
                                 </div>
                             </div>
-                            <div className="col-sm-12 col-md-6 d-flex gap-4 p-3 justify-content-center align-items-center">
+                            <div className="col-sm-12 col-md-6 d-flex gap-4 p-4 justify-content-evenly">
                                 <div className='boton-contacto'>
                                     <Link to="#" className="icono-contacto"><FontAwesomeIcon icon="fa-solid fa-clock" /></Link>
                                 </div>
@@ -96,16 +96,16 @@ export const IconosContacto = () => {
                                     <p>Lunes a viernes de 8:30 a 16:30 Hs</p>
                                 </div>
                             </div>
-                            <div className="col-sm-12 col-md-6 d-flex gap-4 p-3 justify-content-center align-items-center">
+                            <div className="col-sm-12 col-md-6 d-flex gap-4 p-4 justify-content-evenly">
                                 <div className='boton-contacto'>
                                     <Link to="#" className="icono-contacto"><FontAwesomeIcon icon="fa-solid fa-envelope" /></Link>
                                 </div>
                                 <div className="text-start">
                                     <h3 className="fw-bold mb-0 fs-4 text-body-emphasis">Correo</h3>
-                                    <Link to="#" ><p>info@gmail.com</p></Link>
+                                    <Link to="#" ><p>consultarmear@gmail.com</p></Link>
                                 </div>
                             </div>
-                            <div className="col-sm-12 col-md-6 d-flex gap-4 p-3 justify-content-center align-items-center">
+                            <div className="col-sm-12 col-md-6 d-flex gap-4 p-4 justify-content-evenly">
                                 <div className='boton-contacto'>
                                     <Link to="#" className="icono-contacto"><FontAwesomeIcon icon="fa-solid fa-map-location-dot" /></Link>
                                 </div>

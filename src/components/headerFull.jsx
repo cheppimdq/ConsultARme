@@ -37,8 +37,8 @@ export const HeaderFull = () => {
                             <p>Servicio remoto Tango Gestión</p>
                         </div>
                         <video
-                            id="header-video"
-                            src="/ConsultARme/header/video-2.mp4"
+                            // id="header-video"
+                            src="/ConsultARme/header/video-1.mp4"
                             alt="Vídeo de Pressmaster: https://www.pexels.com/es-es/video/un-hombre-caminando-dentro-de-una-planta-de-produccion-3209176/"
                             type="video/mp4"
                             autoPlay  // Reproducción automática

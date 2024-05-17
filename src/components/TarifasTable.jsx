@@ -6,7 +6,7 @@ export const TarifasTable = () => {
         <>
             <div className="my-5">
                 <div className="text-center">
-                    <div className="container">
+                    <div className="container" data-aos="fade-up">
                         <div className="table-responsive-sm">
                             <table className="table table-borderless table-sm">
                                 <thead className="border-bottom">
