@@ -1,30 +1,30 @@
 import React from 'react';
 
-export const MainTarifas = () => {
+export const TarifasMain = () => {
     return (
         <>
-            <main className="my-4">
-                <div className="p-3 text-center">
-                    <div className="container py-3">
-                        <div className="row flex-lg-row-reverse align-items-center">
-                            <div className="col-sm-12 col-md-6">
-                                <img
-                                    src="/ConsultARme/dispositivos/dispositivo-6.png"
-                                    className="d-block mx-lg-auto"
-                                    alt="Bootstrap Themes"
-                                    width="700"
-                                    height="500"
-                                    loading="lazy"
-                                />
-                            </div>
-                            <div className="col-sm-12 col-md-6">
-                                <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Servicios Tango Delta en forma remota</h1>
-                                <p className="lead">Asistencia para cualquier tipo de contingencia que surja en el uso diario del Sistema. Instalación del Sistema y Puestos de Tango. Parametrización del Tango Sueldos para la generación del Libro Sueldos Digital para AFIP.</p>
-                            </div>
+            <div className="my-4 px-4 py-5">
+            <div className="p-3 text-center">
+                <div className="container py-3" data-aos="fade-up">
+                    <div className="row flex-lg-row-reverse align-items-center">
+                        <div className="col-sm-12 col-md-6 mb-4 mb-md-0">
+                            <h1 className="display-5 fw-bold text-body-emphasis lh-1">Instalación y configuración</h1>
+                            <p className="lead mt-3">Nos encargamos de instalar el sistema en nuevos servidores o puestos, así como de migrarlo o actualizarlo cuando sea necesario. Solo necesitas proporcionar el equipo con los requisitos mínimos.</p>
+                        </div>
+                        <div className="col-sm-12 col-md-6">
+                            <img
+                                src="/ConsultARme/dispositivos/dispositivo-8.png"
+                                className="d-block mx-auto"
+                                alt="Bootstrap Themes"
+                                width="700"
+                                height="500"
+                                loading="lazy"
+                            />
                         </div>
                     </div>
                 </div>
-            </main>
+            </div>
+        </div>
         </>
     );
 };

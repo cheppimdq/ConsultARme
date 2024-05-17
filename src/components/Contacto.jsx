@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-export const ServiciosMain = () => {
+export const ContactoMain = () => {
     return (
         <>
             <main className="my-4 px-4 py-5">
@@ -31,7 +31,7 @@ export const ServiciosMain = () => {
     );
 };
 
-export const ServiciosArticle1 = () => {
+export const ContactoArticle1 = () => {
     return (
         <div className="my-4 px-4 py-5">
             <div className="p-3 text-center">
@@ -58,7 +58,7 @@ export const ServiciosArticle1 = () => {
     );
 };
 
-export const ServiciosArticle2 = () => {
+export const ContactoArticle2 = () => {
     return (
         <>
             <div className="my-4 px-4 py-5">

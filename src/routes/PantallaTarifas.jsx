@@ -3,6 +3,7 @@ import React from 'react';
 import { NavTransparente } from '../components/NavTransparente.jsx';
 import { HeaderSecundario } from '../components/HeaderSecundario.jsx';
 
+import { TarifasMain } from '../components/Tarifas.jsx';
 import { TarifasCards } from '../components/TarifasCards.jsx';
 import { TarifasTable } from '../components/TarifasTable.jsx';
 
@@ -15,8 +16,11 @@ const PantallaTarifas = () => {
     <>
       <NavTransparente />
       <HeaderSecundario />
+
+      <TarifasMain />
       <TarifasCards />
       <TarifasTable />
+
       <AsideClientes />
       <AsideWp />
       <FooterNegro />

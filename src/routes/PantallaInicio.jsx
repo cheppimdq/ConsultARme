@@ -24,6 +24,7 @@ const PantallaInicio = () => {
       <IndexArticle1 />
       <TarifasCards />
       <IndexArticle2 />
+
       <AsideClientes />
       <AsideWp />
       <FooterNegro />

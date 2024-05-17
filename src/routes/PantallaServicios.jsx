@@ -3,11 +3,14 @@ import React from 'react';
 import { NavTransparente } from '../components/NavTransparente.jsx';
 import { HeaderSecundario } from '../components/HeaderSecundario.jsx';
 
+import { ServiciosMain, ServiciosArticle1, ServiciosArticle2 } from '../components/Servicios.jsx';
 
 import { IconosServicios } from '../components/Iconos.jsx';
 import { NumerosServicios } from '../components/AsideNumeros.jsx';
+
 import { AsideClientes } from '../components/AsideClientes.jsx';
 import { AsideWp } from '../components/AsideWp.jsx';
+
 import { FooterNegro } from '../components/FooterNegro.jsx';
 
 const PantallaServicios = () => {
@@ -15,11 +18,16 @@ const PantallaServicios = () => {
     <>
       <NavTransparente />
       <HeaderSecundario />
+
+      <ServiciosMain />
       <IconosServicios />
+      <ServiciosArticle1 />
       <NumerosServicios />
+      <ServiciosArticle2 />
 
       <AsideClientes />
       <AsideWp />
+
       <FooterNegro />
     </>
   );
