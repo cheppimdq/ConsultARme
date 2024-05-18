@@ -34,7 +34,7 @@ export const HeaderFull = () => {
                     <div className="carousel-item altura-100 active">
                         <div className="carousel-caption">
                             <a href=""><h1>ConsultARme</h1></a>
-                            <p>Servicio remoto Tango Gestión</p>
+                            <p>Soluciones empresariales</p>
                         </div>
                         <video
                             // id="header-video"

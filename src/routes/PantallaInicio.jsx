@@ -5,6 +5,7 @@ import { HeaderFull } from '../components/HeaderFull.jsx';
 
 import { IndexMain, IndexArticle1, IndexArticle2 } from '../components/Index.jsx';
 
+import { Parallax1 } from '../components/Parallax.jsx';
 import { IconosServicios } from '../components/Iconos.jsx';
 import { TarifasCards } from '../components/TarifasCards.jsx';
 
@@ -20,6 +21,8 @@ const PantallaInicio = () => {
       <HeaderFull />
 
       <IndexMain />
+      <Parallax1 />
+
       <IconosServicios />
       <IndexArticle1 />
       <TarifasCards />

@@ -10,7 +10,7 @@ export const ServiciosMain = () => {
                         <div className="row flex-lg-row-reverse align-items-center">
                             <div className="col-sm-12 col-md-6">
                                 <img
-                                    src="/ConsultARme/dispositivos/dispositivo-1.png"
+                                    src="/ConsultARme/dispositivos/dispositivo-10.png"
                                     className="d-block mx-lg-auto"
                                     alt="Bootstrap Themes"
                                     width="700"
@@ -67,7 +67,7 @@ export const ServiciosArticle2 = () => {
                         <div className="row flex-lg-row-reverse align-items-center">
                             <div className="col-sm-12 col-md-6">
                                 <img
-                                    src="/ConsultARme/dispositivos/dispositivo-6.png"
+                                    src="/ConsultARme/dispositivos/any-2.png"
                                     className="d-block mx-lg-auto"
                                     alt="Bootstrap Themes"
                                     width="700"
@@ -76,10 +76,8 @@ export const ServiciosArticle2 = () => {
                                 />
                             </div>
                             <div className="col-sm-12 col-md-6">
-                                <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Soporte y seguimiento en linea</h1>
-                                <p className="lead">Estamos disponibles para ayudarte de forma remota a través de herramientas como Team Viewer y Anydesk. Después de cada servicio realizado, te enviaremos un correo electrónico con detalles como la fecha, duración y un resumen del trabajo realizado
-
-                                </p>
+                                <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Soporte en linea</h1>
+                                <p className="lead">Estamos disponibles para ayudarte de forma remota a través de herramientas como Team Viewer y Anydesk. Después de cada servicio realizado, te enviaremos un correo electrónico con detalles como la fecha, duración y un resumen del trabajo realizado.</p>
                             </div>
                         </div>
                     </div>

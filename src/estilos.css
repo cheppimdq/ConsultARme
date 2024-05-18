@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import "bootstrap/dist/css/bootstrap.min.css";
 .footer-maps, .carousel-item video, .carousel-item img, .logo-pp, img {
   width: 100%;
   height: auto;
@@ -20,6 +19,7 @@
 
 body {
   overflow-x: hidden;
+  font-family: "Aileron", sans-serif;
 }
 
 .link-blanco a,
@@ -164,11 +164,11 @@ body {
 }
 
 .altura-100 {
-  height: 82vh;
+  height: 79vh;
 }
 
 .altura-79 {
-  height: 66vh;
+  height: 79vh;
 }
 
 .carousel-item {
@@ -309,9 +309,20 @@ body {
   color: #128851;
 }
 
+/* PARALLAX */
+.parallax-pp {
+  background: url("/ConsultARme/tango/axof.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 500px;
+}
+.parallax-pp .parallax-inner-pp {
+  padding: 10% 0;
+}
+
 .footer-negro {
   height: 42vh;
-  background-color: #212529;
   z-index: 1020;
 }
 .footer-negro a, .footer-negro .nav-link, .footer-negro i, .footer-negro button {
