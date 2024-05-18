@@ -315,10 +315,12 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 500px;
 }
 .parallax-pp .parallax-inner-pp {
   padding: 10% 0;
+}
+.parallax-pp .parallax-inner-pp h3, .parallax-pp .parallax-inner-pp p {
+  color: #ffffff;
 }
 
 .footer-negro {
