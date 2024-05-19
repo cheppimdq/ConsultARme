@@ -21,11 +21,12 @@ const PantallaInicio = () => {
       <HeaderFull />
 
       <IndexMain />
-      <Parallax1 />
 
       <IconosServicios />
       <IndexArticle1 />
       <TarifasCards />
+      <Parallax1 />
+
       <IndexArticle2 />
 
       <AsideClientes />

@@ -5,8 +5,9 @@ import { HeaderSecundario } from '../components/HeaderSecundario.jsx';
 
 import { ServiciosMain, ServiciosArticle1, ServiciosArticle2 } from '../components/Servicios.jsx';
 
+import { Parallax1 } from '../components/Parallax.jsx';
+
 import { IconosServicios } from '../components/Iconos.jsx';
-import { NumerosServicios } from '../components/AsideNumeros.jsx';
 
 import { AsideClientes } from '../components/AsideClientes.jsx';
 import { AsideWp } from '../components/AsideWp.jsx';
@@ -22,7 +23,9 @@ const PantallaServicios = () => {
       <ServiciosMain />
       <IconosServicios />
       <ServiciosArticle1 />
-      <NumerosServicios />
+
+      <Parallax1 />
+
       <ServiciosArticle2 />
 
       <AsideClientes />

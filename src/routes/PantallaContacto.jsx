@@ -5,6 +5,9 @@ import { HeaderSecundario } from '../components/HeaderSecundario';
 
 import { ContactoMain, ContactoArticle1 } from '../components/Contacto.jsx';
 
+import { Parallax1 } from '../components/Parallax.jsx';
+
+
 import { IconosContacto } from '../components/Iconos.jsx';
 
 import { AsideMaps } from '../components/AsideMaps.jsx';
@@ -22,6 +25,9 @@ const PantallaContacto = () => {
 
       <IconosContacto />
       <ContactoArticle1 />
+
+      <Parallax1 />
+
       <AsideMaps />
 
       <AsideWp />
