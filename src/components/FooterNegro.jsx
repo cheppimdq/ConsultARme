@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const FooterNegro = () => {
     return (
-        <>
-            <footer className="fondo-negro">
+        <footer className="fondo-negro">
+            <div className='container'>
                 <div className="row footer-negro link-gris">
                     <ul className="nav col-sm-12 col-md-7 flex-footer">
                         <li className="list-inline-item"><NavLink to='/' className="nav-link">Inicio</NavLink></li>
@@ -20,7 +20,7 @@ export const FooterNegro = () => {
                     </ul>
                     <h6 className="col-sm-12 flex-footer">2024 &copy; ConsultARme</h6>
                 </div>
-            </footer>
-        </>
+            </div>
+        </footer>
     );
 };

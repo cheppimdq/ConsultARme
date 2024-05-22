@@ -2,6 +2,8 @@ import React from 'react';
 
 import { NavTransparente } from '../components/NavTransparente.jsx';
 import { HeaderFull } from '../components/HeaderFull.jsx';
+import { AsideVideos } from '../components/_AsideVideos.jsx';
+
 
 import { IndexMain, IndexArticle1, IndexArticle2 } from '../components/Index.jsx';
 
@@ -21,10 +23,11 @@ const PantallaInicio = () => {
       <HeaderFull />
 
       <IndexMain />
+      <AsideVideos />
 
-      <IconosServicios />
+      {/* <IconosServicios /> */}
       <IndexArticle1 />
-      <TarifasCards />
+      {/* <TarifasCards /> */}
       <Parallax1 />
 
       <IndexArticle2 />

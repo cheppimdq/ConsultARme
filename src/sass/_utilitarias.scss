@@ -1,33 +1,25 @@
 // LINKS
-.link-blanco {
+// .link-blanco { a, .nav-link, i, button { @include enlace-pp(blanco-1, blanco, blanco-2)}}
 
-  a,
-  .nav-link,
-  i,
-  button {
-    @include enlace-pp(blanco-1, blanco, blanco-2);
-  }
-}
+// .link-gris {
 
-.link-gris {
+//   a,
+//   .nav-link,
+//   i,
+//   button {
+//     @include enlace-pp(blanco-2, blanco, gris);
+//   }
+// }
 
-  a,
-  .nav-link,
-  i,
-  button {
-    @include enlace-pp(blanco-2, blanco, gris);
-  }
-}
+// .link-negro {
 
-.link-negro {
-
-  a,
-  .nav-link,
-  i,
-  button {
-    @include enlace-pp(negro, negro-1, gris);
-  }
-}
+//   a,
+//   .nav-link,
+//   i,
+//   button {
+//     @include enlace-pp(negro, negro-1, gris);
+//   }
+// }
 
 // COLORES DE FONDO
 .fondo-gris {

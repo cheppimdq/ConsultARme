@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
 export const ContactoMain = () => {
     return (
@@ -56,3 +55,32 @@ export const ContactoArticle1 = () => {
         </div>
     );
 };
+
+export const ContactoArticle2 = () => {
+    return (
+        <div className="my-4 px-4 py-5">
+            <div className="p-3 text-center">
+                <div className="container py-3" data-aos="fade-up">
+                    <div className="row flex-lg-row-reverse align-items-center">
+                        <div className="col-sm-12 col-md-6">
+                            <img
+                                src="/ConsultARme/dispositivos/any-2.png"
+                                className="d-block mx-lg-auto"
+                                alt="Bootstrap Themes"
+                                width="700"
+                                height="500"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div className="col-sm-12 col-md-6">
+                            <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Soporte en linea</h1>
+                            <p className="lead">Estamos disponibles para ayudarte de forma remota a través de herramientas como Team Viewer y Anydesk. Después de cada servicio realizado, te enviaremos un correo electrónico con detalles como la fecha, duración y un resumen del trabajo realizado
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}

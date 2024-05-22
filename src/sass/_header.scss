@@ -1,21 +1,31 @@
 // LOGO NAV
 .logo-pp {
     @extend %foto-pp;
-    max-height: 50px;
+    transition: filter 0.5s ease; /* Efecto suave de transición para el logo */
+    height: 12vh;
 }
 
-// NAV CON CAMBIO DE COLOR EN JS
-.nav-negro {
-    background-color: rgba(map-get($color-pp, negro), 0.9);  /* Celeste con 50% de transparencia */
-    z-index: 1000; /* Asegura que esté encima de otros elementos */
-    transition: background-color 0.5s ease; /* Transición suave del color */
-    
-    @media (min-width: 768px) {
-        background-color: transparent; // Cambia a transparente en pantallas grandes
-    }
-    &.scrolled {
-        background-color: rgba(map-get($color-pp, negro), 0.9); /* Celeste con 50% de transparencia */
-    }
+// NAV TRANSPARENTE
+.nav-transparente {
+    background-color: transparent;
+    z-index: 1000;
+    transition: background-color 0.5s ease;
+    .link-blanco  { 
+        font-size: medium;
+        font-weight: 600;
+        @include enlace-pp(blanco-1, blanco, blanco-2); } 
+}
+
+// NAV BLANCO
+.nav-blanco {
+    background-color: map-get($color-pp, blanco);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: background-color 0.5s ease;
+    .link-celeste { 
+        font-size: medium;
+        font-weight: 600;
+        @include enlace-pp(celeste-400, celeste-500, celeste-300); }
 }
 
 // ALTURA HEADER
@@ -26,6 +36,7 @@
 .carousel-item  {
     position: relative; /* Agrega posicionamiento relativo */
     z-index: 0; /* Asegura que esté detrás del nav */
+
     img {
         @extend %foto-pp;
         height: 100%; // Ajusta la altura de la imagen al 100% del contenedor
@@ -33,6 +44,7 @@
         justify-content: center;
         align-items: center;
     }
+
     video {
         @extend %foto-pp;
         height: 100%; // Ajusta la altura de la imagen al 100% del contenedor
@@ -69,4 +81,3 @@
         text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
     }
 }
-
