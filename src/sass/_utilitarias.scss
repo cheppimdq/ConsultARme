@@ -1,26 +1,3 @@
-// LINKS
-// .link-blanco { a, .nav-link, i, button { @include enlace-pp(blanco-1, blanco, blanco-2)}}
-
-// .link-gris {
-
-//   a,
-//   .nav-link,
-//   i,
-//   button {
-//     @include enlace-pp(blanco-2, blanco, gris);
-//   }
-// }
-
-// .link-negro {
-
-//   a,
-//   .nav-link,
-//   i,
-//   button {
-//     @include enlace-pp(negro, negro-1, gris);
-//   }
-// }
-
 // COLORES DE FONDO
 .fondo-gris {
   background-color: map-get($color-pp, gris-1);

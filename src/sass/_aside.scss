@@ -34,11 +34,6 @@
     background-attachment: fixed;
     .parallax-inner-pp {
         padding: 10% 0;
-        h3, p {
-
-        
-        color: map-get($color-pp, blanco);
-    }
+        h3, p { color: map-get($color-pp, blanco); }
     }
 }
-

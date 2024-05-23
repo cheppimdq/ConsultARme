@@ -10,7 +10,7 @@ export const FooterNegro = () => {
                     <ul className="nav col-sm-12 col-md-7 flex-footer">
                         <li className="list-inline-item"><NavLink to='/' className="nav-link">Inicio</NavLink></li>
                         <li className="list-inline-item"><NavLink to='/servicios' className="nav-link">Servicios</NavLink></li>
-                        <li className="list-inline-item"><NavLink to='/tarifas' className="nav-link">Tarifas</NavLink></li>
+                        {/* <li className="list-inline-item"><NavLink to='/tarifas' className="nav-link">Tarifas</NavLink></li> */}
                         <li className="list-inline-item"><NavLink to='/contacto' className="nav-link">Contacto</NavLink></li>
                     </ul>
                     <ul className="nav col-sm-12 col-md-5 flex-footer">

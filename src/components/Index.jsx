@@ -43,7 +43,7 @@ export const IndexArticle1 = () => {
                         </div>
                         <div className="col-sm-12 col-md-6">
                             <img
-                                src="/ConsultARme/dispositivos/dispositivo-9.jpg"
+                                src="/ConsultARme/dispositivos/dispositivo-8.png"
                                 className="d-block mx-auto"
                                 alt="Bootstrap Themes"
                                 width="700"
