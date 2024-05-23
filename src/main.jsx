@@ -6,13 +6,6 @@ import { RutasPantallas } from './routes/RutasPantallas.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
-import '@fontsource/aileron/100.css';
-import '@fontsource/aileron/300.css';
-import '@fontsource/aileron/400.css';
-import '@fontsource/aileron/600.css';
-import '@fontsource/aileron/700.css';
-import '@fontsource/aileron/800.css';
-
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
