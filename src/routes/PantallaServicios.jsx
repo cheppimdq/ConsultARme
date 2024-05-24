@@ -3,7 +3,7 @@ import React from 'react';
 import { NavDinamica } from '../components/NavDinamica.jsx';
 import { HeaderSecundario } from '../components/HeaderSecundario.jsx';
 import { Main } from '../components/Mains.jsx';
-import { Article } from '../components/Articles.jsx';
+import { Acordion } from '../components/Acordion.jsx';
 import { Parallax } from '../components/Parallax.jsx';
 import { SlideClientes } from '../components/SlideClientes.jsx';
 import { AsideWp } from '../components/Asides.jsx';
@@ -16,7 +16,7 @@ const PantallaServicios = () => {
       <HeaderSecundario />
       <Main />
       <Parallax />
-      <Article />
+      <Acordion />
       <SlideClientes />
       <AsideWp />
       <Footer />

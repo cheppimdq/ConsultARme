@@ -8,7 +8,7 @@ export const Parallax = () => {
     switch (location.pathname) {
         case '/servicios':
             content = {
-                background: '/consultARme/axof.jpg',
+                background: '/ConsultARme/axof.jpg',
                 title: 'Servicios Tango Delta ',
                 buttonText: 'Servicios',
                 buttonLink: '/servicios'
@@ -16,7 +16,7 @@ export const Parallax = () => {
             break;
         case '/tarifas':
             content = {
-                background: '/consultARme/axof.jpg',
+                background: '/ConsultARme/axof.jpg',
                 title: 'Consulta nuestras tarifas',
                 buttonText: 'Tarifas',
                 buttonLink: '/tarifas'
@@ -24,7 +24,7 @@ export const Parallax = () => {
             break;
         case '/contacto':
             content = {
-                background: '/consultARme/epuyen.jpg',
+                background: '/ConsultARme/epuyen.jpg',
                 title: 'Contáctanos',
                 buttonText: 'Contacto',
                 buttonLink: '/contacto'
@@ -32,7 +32,7 @@ export const Parallax = () => {
             break;
         default:
             content = {
-                background: '/consultARme/axof.jpg',
+                background: '/ConsultARme/axof.jpg',
                 title: 'Servicio Tango Delta',
                 buttonText: 'Conoce más',
                 buttonLink: '/'
