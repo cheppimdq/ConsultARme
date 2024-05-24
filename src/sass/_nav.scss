@@ -1,0 +1,30 @@
+.logo-pp {
+    @extend %foto-pp;
+    transition: filter 0.5s ease; /* Efecto suave de transición para el logo */
+    height: 12vh;
+}
+
+.nav-transparente {
+    z-index: 1000;
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+
+    .link-blanco {
+        @include enlace-pp(blanco-1, blanco, blanco-2);
+        font-size: medium;
+        font-weight: 600;
+    }
+}
+
+.nav-blanco {
+    z-index: 1000;
+    background-color: map-get($color-pp, blanco);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.5s ease;
+
+    .link-celeste {
+        @include enlace-pp(celeste-400, celeste-500, celeste-300);
+        font-size: medium;
+        font-weight: 600;
+    }
+}

@@ -1,17 +1,5 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
-.footer-maps, .carousel-item video, .carousel-item img, .logo-pp, img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-.footer-negro .flex-footer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -24,27 +12,15 @@ body {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  background-color: #f1f9fa;
 }
 body a {
   text-decoration: none;
 }
-
-.fondo-gris {
-  background-color: #F1F3F4;
-}
-
-.fondo-negro {
-  background-color: #212529;
-}
-
-.icono-verde {
-  font-size: 1.5rem;
-  color: #128851;
-}
-
-.icono-rojo {
-  font-size: 1.5rem;
-  color: #d14642;
+.footer-maps, .carousel-item video, .carousel-item img, .logo-pp, body img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .logo-pp {
@@ -53,14 +29,14 @@ body a {
 }
 
 .nav-transparente {
-  background-color: transparent;
   z-index: 1000;
+  background-color: transparent;
   transition: background-color 0.5s ease;
 }
 .nav-transparente .link-blanco {
+  color: #eeeeee;
   font-size: medium;
   font-weight: 600;
-  color: #eeeeee;
 }
 .nav-transparente .link-blanco:hover {
   color: #ffffff;
@@ -73,15 +49,15 @@ body a {
 }
 
 .nav-blanco {
+  z-index: 1000;
   background-color: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
   transition: background-color 0.5s ease;
 }
 .nav-blanco .link-celeste {
+  color: #51a8b1;
   font-size: medium;
   font-weight: 600;
-  color: #51a8b1;
 }
 .nav-blanco .link-celeste:hover {
   color: #3f919b;
@@ -102,8 +78,8 @@ body a {
 }
 
 .carousel-item {
-  position: relative; /* Agrega posicionamiento relativo */
-  z-index: 0; /* Asegura que esté detrás del nav */
+  position: relative;
+  z-index: 0;
 }
 .carousel-item img {
   height: 100%;
@@ -132,7 +108,7 @@ body a {
   text-align: center;
 }
 .carousel-caption h1, .carousel-caption h2 {
-  color: #ffffff; /* Cambia el color si es necesario */
+  color: #ffffff;
   font-size: 3.6rem;
   font-weight: 700;
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
@@ -142,6 +118,28 @@ body a {
   font-weight: 400;
   font-style: italic;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.fondo-gris {
+  background-color: #F1F3F4;
+}
+
+.fondo-negro {
+  background-color: #212529;
+}
+
+/* PARALLAX */
+.parallax-pp {
+  background: url("/ConsultARme/tango/axof.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.parallax-pp .parallax-inner-pp {
+  padding: 10% 0;
+}
+.parallax-pp .parallax-inner-pp h3, .parallax-pp .parallax-inner-pp p {
+  color: #ffffff;
 }
 
 .logos-container {
@@ -154,61 +152,6 @@ body a {
   height: auto;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.footer-maps {
-  height: 66vh;
-}
-
-.boton-planes {
-  display: flex; /* Añade display: flex para centrar vertical y horizontalmente */
-  justify-content: center; /* Centra horizontalmente */
-  align-items: center; /* Centra verticalmente */
-  font-size: 1.5rem;
-  width: 2.5rem;
-  height: 2.5rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-}
-.boton-planes .icono-planes {
-  color: #ffffff;
-}
-
-.boton-contacto {
-  display: flex; /* Añade display: flex para centrar vertical y horizontalmente */
-  justify-content: center; /* Centra horizontalmente */
-  align-items: center; /* Centra verticalmente */
-  font-size: 1.5rem;
-  width: 2.5rem;
-  height: 2.5rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease;
-  border-radius: 50%;
-}
-.boton-contacto .icono-contacto {
-  color: #ffffff;
-}
-.boton-contacto:hover {
-  background-color: #ffffff;
-}
-
-.boton-in {
-  font-size: 1rem;
-  width: 1.5rem;
-  height: 1.5rem;
-  background-color: #3b70d8;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease;
-  border-radius: 50%;
-}
-.boton-in .icono-in {
-  color: #ffffff;
-}
-.boton-in .icono-in:hover {
-  color: #3b70d8;
-}
-.boton-in:hover {
-  background-color: #ffffff;
 }
 
 .boton-wp {
@@ -234,37 +177,23 @@ body a {
   color: #128851;
 }
 
-/* PARALLAX */
-.parallax-pp {
-  background: url("/ConsultARme/tango/axof.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-.parallax-pp .parallax-inner-pp {
-  padding: 10% 0;
-}
-.parallax-pp .parallax-inner-pp h3, .parallax-pp .parallax-inner-pp p {
-  color: #ffffff;
+.footer-maps {
+  height: 66vh;
 }
 
-.footer-negro {
+.footer-pp {
   z-index: 1020;
+  background-color: #3f919b;
 }
-.footer-negro a, .footer-negro .nav-link, .footer-negro i, .footer-negro button {
+.footer-pp a, .footer-pp .nav-link {
   color: #eeeeee;
 }
-.footer-negro a:hover, .footer-negro .nav-link:hover, .footer-negro i:hover, .footer-negro button:hover {
+.footer-pp a:hover, .footer-pp .nav-link:hover {
   color: #ffffff;
 }
-.footer-negro a.active, .footer-negro .nav-link.active, .footer-negro i.active, .footer-negro button.active {
+.footer-pp a.active, .footer-pp .nav-link.active {
   color: #cccccc;
 }
-.footer-negro a.active:hover, .footer-negro .nav-link.active:hover, .footer-negro i.active:hover, .footer-negro button.active:hover {
+.footer-pp a.active:hover, .footer-pp .nav-link.active:hover {
   color: #ffffff;
-}
-.footer-negro .flex-footer {
-  justify-content: center;
-  align-content: center;
-  color: #cccccc;
 }

@@ -8,28 +8,21 @@ export const Article = () => {
     switch (location.pathname) {
         case '/servicios':
             content = {
-                image: '/ConsultARme/dispositivos/dispositivo-8.png',
-                title: 'Instalación',
-                text: 'Nos encargamos de instalar el sistema en nuevos servidores o puestos, así como de migrarlo o actualizarlo cuando sea necesario. Solo necesitas proporcionar el equipo con los requisitos mínimos.'
-            };
-            break;
-        case '/tarifas':
-            content = {
-                image: '/ConsultARme/dispositivos/dispositivo-1.png',
-                title: 'Precios competitivos',
-                text: 'Ofrecemos planes adaptados a tus necesidades y presupuesto. Consulta nuestras tarifas y elige el mejor plan para tu empresa.'
+                image: '/ConsultARme/any.png',
+                title: 'Soporte en línea',
+                text: 'Estamos disponibles para ayudarte de forma remota a través de herramientas como Team Viewer y Anydesk. Después de cada servicio realizado, te enviaremos un correo electrónico con detalles como la fecha, duración y un resumen del trabajo realizado.'
             };
             break;
         case '/contacto':
             content = {
-                image: '/ConsultARme/dispositivos/dispositivo-8.png',
-                title: 'Contáctanos',
-                text: 'Estamos aquí para ayudarte. Puedes contactarnos a través de nuestro formulario en línea o llamarnos directamente.'
+                image: '/ConsultARme/any.png',
+                title: 'Soporte en línea',
+                text: 'Estamos disponibles para ayudarte de forma remota a través de herramientas como Team Viewer y Anydesk. Después de cada servicio realizado, te enviaremos un correo electrónico con detalles como la fecha, duración y un resumen del trabajo realizado.'
             };
             break;
         default:
             content = {
-                image: '/ConsultARme/dispositivos/any-2.png',
+                image: '/ConsultARme/any.png',
                 title: 'Soporte en línea',
                 text: 'Estamos disponibles para ayudarte de forma remota a través de herramientas como Team Viewer y Anydesk. Después de cada servicio realizado, te enviaremos un correo electrónico con detalles como la fecha, duración y un resumen del trabajo realizado.'
             };

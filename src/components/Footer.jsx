@@ -4,15 +4,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const Footer = () => {
     return (
-        <footer className=" px-4 py-5 fondo-negro">
+        <footer className=" px-4 py-5 footer-pp">
             <div className="p-3 text-center">
                 <div className='container py-3'>
-                    <div className="row footer-negro link-gris ">
+                    <div className="row">
                         <div className='col-sm-12 col-md-6 py-3'>
                             <ul className="nav justify-content-start">
                                 <li className="list-inline-item"><NavLink to='/' className="nav-link">Inicio</NavLink></li>
                                 <li className="list-inline-item"><NavLink to='/servicios' className="nav-link">Servicios</NavLink></li>
-                                {/* <li className="list-inline-item"><NavLink to='/tarifas' className="nav-link">Tarifas</NavLink></li> */}
                                 <li className="list-inline-item"><NavLink to='/contacto' className="nav-link">Contacto</NavLink></li>
                             </ul>
                         </div>

@@ -1,13 +1,10 @@
-// ALTO FOOTER
-.footer-negro {
+.footer-maps { // MAPS
+    @extend %foto-pp;
+    height: 66vh;
+}
+
+.footer-pp { // FOOTER
     z-index: 1020;
-
-    a,.nav-link, i, button { @include enlace-pp(blanco-1, blanco, blanco-2); }
-
-    .flex-footer {
-        @extend %flex-pp;
-        justify-content: center;
-        align-content: center;
-        color: map-get($color-pp, blanco-2);
-    }
+    background-color: map-get($color-pp, celeste-500);
+    a, .nav-link { @include enlace-pp(blanco-1, blanco, blanco-2); }
 }

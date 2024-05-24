@@ -38,7 +38,7 @@ export const HeaderFull = () => {
                         </div>
                         <video
                             // id="header-video"
-                            src="/ConsultARme/header/video-3.mp4"
+                            src="/ConsultARme/video-1.mp4"
                             alt="Vídeo de Pressmaster: https://www.pexels.com/es-es/video/un-hombre-caminando-dentro-de-una-planta-de-produccion-3209176/"
                             type="video/mp4"
                             autoPlay  // Reproducción automática
@@ -49,7 +49,7 @@ export const HeaderFull = () => {
                     </div>
 
                     <div className="carousel-item altura-100">
-                        <img src="/ConsultARme/header/header-1.jpg"></img>
+                        <img src="/ConsultARme/header-1.jpg"></img>
                         <div className="carousel-caption">
                             <a href=""><h2>Servicios</h2></a>
                             <p>Asistencia Tango Delta remota</p>
@@ -57,7 +57,7 @@ export const HeaderFull = () => {
                     </div>
 
                     <div className="carousel-item altura-100">
-                        <img src="/ConsultARme/header/header-2.jpg" alt="..."></img>
+                        <img src="/ConsultARme/header-2.jpg" alt="..."></img>
                         <div className="carousel-caption">
                             <a href=""><h2>Tarifas</h2></a>
                             <p>Planes para MIPYMES</p>
@@ -65,7 +65,7 @@ export const HeaderFull = () => {
                     </div>
 
                     <div className="carousel-item altura-100">
-                        <img src="/ConsultARme/header/epuyen.jpg" alt="..."></img>
+                        <img src="/ConsultARme/epuyen.jpg" alt="..."></img>
                         <div className="carousel-caption">
                             <a href=""><h2>Contacto</h2></a>
                             <p>Comunicate con nosotros</p>

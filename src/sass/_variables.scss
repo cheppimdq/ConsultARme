@@ -27,28 +27,3 @@ $color-pp: (
     celeste-900: #2b454e,
     celeste-950: #192d33
 );
-
-@mixin enlace-pp($color-link, $color-hover, $color-activo) { color: map-get($color-pp, $color-link);
-    &:hover { 
-        color: map-get($color-pp, $color-hover); 
-    };
-
-    &.active { 
-        color: map-get($color-pp, $color-activo);
-        &:hover { color: map-get($color-pp, $color-hover); }; 
-    };
-};
-
-%foto-pp {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-};
-
-%flex-pp {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    // justify-content: center; 
-    // align-content: center;
-};

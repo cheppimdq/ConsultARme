@@ -1,5 +1,4 @@
-// WHATSAPP
-.boton-wp {
+.boton-wp { // WHATSAPP
     position: fixed;
     font-size: 2rem;
     bottom: 5vh;
@@ -23,17 +22,5 @@
     &:hover {
         background-color: map-get($color-pp, blanco);
         color: map-get($color-pp, verde);
-    }
-}
-
-/* PARALLAX */
-.parallax-pp {
-    background: url('/ConsultARme/tango/axof.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    .parallax-inner-pp {
-        padding: 10% 0;
-        h3, p { color: map-get($color-pp, blanco); }
     }
 }

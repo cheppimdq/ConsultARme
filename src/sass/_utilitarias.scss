@@ -1,20 +1,24 @@
-// COLORES DE FONDO
-.fondo-gris {
-  background-color: map-get($color-pp, gris-1);
-}
+%foto-pp {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+};
 
-.fondo-negro {
-  background-color: map-get($color-pp, negro);
-}
+%flex-pp {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  // justify-content: center; 
+  // align-content: center;
+};
 
-// ICONO VERDE
-.icono-verde {
-  font-size: 1.5rem;
-  color: map-get($color-pp, verde);
-}
+@mixin enlace-pp($color-link, $color-hover, $color-activo) { color: map-get($color-pp, $color-link);
+  &:hover { 
+      color: map-get($color-pp, $color-hover); 
+  };
 
-// ICONO ROJO
-.icono-rojo {
-  font-size: 1.5rem;
-  color: map-get($color-pp, rojo);
-}
+  &.active { 
+      color: map-get($color-pp, $color-activo);
+      &:hover { color: map-get($color-pp, $color-hover); }; 
+  };
+};
