@@ -1,43 +1,26 @@
 import React from 'react';
 
-import { NavTransparente } from '../components/NavTransparente.jsx';
+import { NavDinamica } from '../components/NavDinamica.jsx';
 import { HeaderSecundario } from '../components/HeaderSecundario';
-
-import { ContactoMain, ContactoArticle1, ContactoArticle2 } from '../components/Contacto.jsx';
-
-import { Parallax1 } from '../components/Parallax.jsx';
-
-import { NumerosContacto } from '../components/_AsideNumeros.jsx';
-
-// import { IconosContacto } from '../components/Iconos.jsx';
-
-import { AsideMaps } from '../components/AsideMaps.jsx';
-
-import { AsideWp } from '../components/AsideWp.jsx';
-import { FooterNegro } from '../components/FooterNegro.jsx';
+import { Main } from '../components/Mains.jsx';
+import { Article } from '../components/Articles.jsx';
+import { Parallax } from '../components/Parallax.jsx';
+import { AsideMaps, AsideWp  } from '../components/Asides.jsx';
+import { Footer } from '../components/Footer.jsx';
 
 const PantallaContacto = () => {
   return (
     <>
-      <NavTransparente />
+      <NavDinamica />
       <HeaderSecundario />
-
-      <ContactoMain />
-
-      <NumerosContacto />
-
-      {/* <IconosContacto /> */}
-      <ContactoArticle1 />
-
-      <Parallax1 />
-      <ContactoArticle2 />
-
+      <Main />
+      <Parallax />
+      <Article />
       <AsideMaps />
-
       <AsideWp />
-      <FooterNegro />
+      <Footer />
     </>
   );
 };
 
-export default PantallaContacto; // Exportación predeterminada de PantallaNoticias
+export default PantallaContacto;

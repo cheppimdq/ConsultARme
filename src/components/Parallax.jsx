@@ -1,10 +1,48 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
-export const Parallax1 = () => {
+export const Parallax = () => {
+    const location = useLocation();
+    let content;
+
+    switch (location.pathname) {
+        case '/servicios':
+            content = {
+                background: '/consultARme/tango/axof.jpg',
+                title: 'Servicios Tango Delta en forma remota',
+                buttonText: 'Servicios',
+                buttonLink: '/servicios'
+            };
+            break;
+        case '/tarifas':
+            content = {
+                background: '/consultARme/tango/axof.jpg',
+                title: 'Consulta nuestras tarifas',
+                buttonText: 'Tarifas',
+                buttonLink: '/tarifas'
+            };
+            break;
+        case '/contacto':
+            content = {
+                background: '/consultARme/tango/axof.jpg',
+                title: 'Contáctanos',
+                buttonText: 'Contacto',
+                buttonLink: '/contacto'
+            };
+            break;
+        default:
+            content = {
+                background: '/consultARme/tango/axof.jpg',
+                title: 'Bienvenido a nuestro sitio',
+                buttonText: 'Conoce más',
+                buttonLink: '/'
+            };
+            break;
+    }
+
     return (
-        <section class="parallax-pp my-4 px-4 py-5">
-            <div class="parallax-inner-pp p-3 text-center">
+        <section className="parallax-pp my-4 px-4 py-5" style={{ background: content.background }}>
+            <div className="parallax-inner-pp p-3 text-center">
                 <div className="container py-3">
                     <div className="row align-items-center justify-content-center">
                         <div className="col-sm-7">
@@ -16,19 +54,16 @@ export const Parallax1 = () => {
                             />
                         </div>
                         <div className="col-sm-7">
-                            <h3 className="display-6 fw-bold lh-1 mb-5">Servicios Tango Delta en forma remota</h3>
-                            <NavLink to='/servicios' className="nav-link"><button className="btn btn-dark px-5 mb-5" type="button">
-                                Servicios
-                            </button></NavLink>
+                            <h3 className="display-6 fw-bold lh-1 mb-5">{content.title}</h3>
+                            <NavLink to={content.buttonLink} className="nav-link">
+                                <button className="btn btn-dark px-5 mb-5" type="button">
+                                    {content.buttonText}
+                                </button>
+                            </NavLink>
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
-
-
-
     );
 };
-

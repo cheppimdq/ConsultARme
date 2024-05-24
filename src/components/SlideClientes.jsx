@@ -24,7 +24,7 @@ const logosClientes = [
     { url: 'https://www.ejemplo.com/cliente-8', image: '/ConsultARme/clientes/cliente-16.png' },
 ];
 
-export const AsideClientes = () => {
+export const SlideClientes = () => {
     const [startIndex, setStartIndex] = useState(0);
 
     useEffect(() => {

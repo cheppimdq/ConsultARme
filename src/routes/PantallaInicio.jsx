@@ -1,35 +1,27 @@
 import React from 'react';
 
-import { NavTransparente } from '../components/NavTransparente.jsx';
+import { NavDinamica } from '../components/NavDinamica.jsx';
 import { HeaderFull } from '../components/HeaderFull.jsx';
-
-import { IndexMain, IndexArticle1, IndexArticle2 } from '../components/Index.jsx';
-
-import { Parallax1 } from '../components/Parallax.jsx';
-
-import { AsideClientes } from '../components/AsideClientes.jsx';
-import { AsideWp } from '../components/AsideWp.jsx';
-
-import { FooterNegro } from '../components/FooterNegro.jsx';
+import { Main } from '../components/Mains.jsx';
+import { Article } from '../components/Articles.jsx';
+import { Parallax } from '../components/Parallax.jsx';
+import { SlideClientes } from '../components/SlideClientes.jsx';
+import { AsideWp } from '../components/Asides.jsx';
+import { Footer } from '../components/Footer.jsx';
 
 const PantallaInicio = () => {
   return (
     <>
-      <NavTransparente />
+      <NavDinamica />
       <HeaderFull />
-
-      <IndexMain />
-
-      <IndexArticle1 />
-      <Parallax1 />
-
-      <IndexArticle2 />
-
-      <AsideClientes />
+      <Main />
+      <Parallax />
+      <Article />
+      <SlideClientes />
       <AsideWp />
-      <FooterNegro />
+      <Footer />
     </>
   );
 };
 
-export default PantallaInicio; // Exportación predeterminada de PantallaInicio
+export default PantallaInicio;

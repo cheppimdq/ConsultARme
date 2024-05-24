@@ -6,17 +6,17 @@
 
 body {
   overflow-x: hidden;
-  // font-family: 'Aileron', sans-serif;
-
-  // <weight>: Use a value from 300 to 700
   font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 500; // <weight>: Use a value from 300 to 700
   font-style: normal;
-  
-  a {    text-decoration: none;
+
+  a {
+    text-decoration: none;
   }
 }
 
 // foto
-img { @extend %foto-pp; }
+img {
+  @extend %foto-pp;
+}

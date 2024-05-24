@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-export const NavTransparente = () => {
+export const NavDinamica = () => {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {

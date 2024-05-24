@@ -1,39 +1,27 @@
 import React from 'react';
 
-import { NavTransparente } from '../components/NavTransparente.jsx';
+import { NavDinamica } from '../components/NavDinamica.jsx';
 import { HeaderSecundario } from '../components/HeaderSecundario.jsx';
-
-import { ServiciosMain, ServiciosArticle1, ServiciosArticle2 } from '../components/Servicios.jsx';
-
-import { Parallax1 } from '../components/Parallax.jsx';
-
-import { IconosServicios } from '../components/Iconos.jsx';
-
-import { AsideClientes } from '../components/AsideClientes.jsx';
-import { AsideWp } from '../components/AsideWp.jsx';
-
-import { FooterNegro } from '../components/FooterNegro.jsx';
+import { Main } from '../components/Mains.jsx';
+import { Article } from '../components/Articles.jsx';
+import { Parallax } from '../components/Parallax.jsx';
+import { SlideClientes } from '../components/SlideClientes.jsx';
+import { AsideWp } from '../components/Asides.jsx';
+import { Footer } from '../components/Footer.jsx';
 
 const PantallaServicios = () => {
   return (
     <>
-      <NavTransparente />
+      <NavDinamica />
       <HeaderSecundario />
-
-      <ServiciosMain />
-      <IconosServicios />
-      <ServiciosArticle1 />
-
-      <Parallax1 />
-
-      <ServiciosArticle2 />
-
-      <AsideClientes />
+      <Main />
+      <Parallax />
+      <Article />
+      <SlideClientes />
       <AsideWp />
-
-      <FooterNegro />
+      <Footer />
     </>
   );
 };
 
-export default PantallaServicios; // Exportación predeterminada de PantallaNoticias
+export default PantallaServicios;
