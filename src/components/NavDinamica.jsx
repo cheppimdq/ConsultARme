@@ -22,7 +22,7 @@ export const NavDinamica = () => {
       <nav className={`navbar navbar-expand-lg fixed-top ${scrolled ? 'nav-blanco' : 'nav-transparente'}`}>
         <div className="container">
           <Link to="/" className="navbar-brand">
-            <img src={scrolled ? "/ConsultARme/marca/nav-celeste.png" : "/ConsultARme/marca/nav-blanco.png"} alt="" width="30" height="30" className="logo-pp" />
+            <img src={scrolled ? "/marca/nav-celeste.png" : "/marca/nav-blanco.png"} alt="" width="30" height="30" className="logo-pp" />
           </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <FontAwesomeIcon icon="fa-solid fa-bars" />

@@ -37,7 +37,7 @@ export const HeaderFull = () => {
                         </div>
                         <video
                             // id="header-video"
-                            src="/ConsultARme/video-1.mp4"
+                            src="/video-1.mp4"
                             alt="Vídeo de Pressmaster: https://www.pexels.com/es-es/video/un-hombre-caminando-dentro-de-una-planta-de-produccion-3209176/"
                             type="video/mp4"
                             autoPlay  // Reproducción automática
@@ -48,7 +48,7 @@ export const HeaderFull = () => {
                     </div>
 
                     <div className="carousel-item altura-100">
-                        <img src="/ConsultARme/tango/empleados.webp"></img>
+                        <img src="/tango/empleados.webp"></img>
                         <div className="carousel-caption">
                             <a href=""><h2 className='h-1'>Servicios</h2></a>
                             <p>Asistencia Tango Delta remota</p>
@@ -56,7 +56,7 @@ export const HeaderFull = () => {
                     </div>
 
                     <div className="carousel-item altura-100">
-                        <img src="/ConsultARme/epuyen.jpg" alt="..."></img>
+                        <img src="/epuyen.jpg" alt="..."></img>
                         <div className="carousel-caption">
                             <a href=""><h2 className='h-1'>Contacto</h2></a>
                             <p>Comunicate con nosotros</p>

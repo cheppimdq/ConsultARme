@@ -11,7 +11,7 @@ export const HeaderSecundario = () => {
                 return {
                     titulos: ["Servicios"],
                     imagenes: [
-                        '/ConsultARme/tango/empleados.webp',
+                        '/tango/empleados.webp',
                     ],
                     textos: [ 'Asistencia Tango Delta remota' ]
                 };
@@ -19,7 +19,7 @@ export const HeaderSecundario = () => {
                 return {
                     titulos: ["Contacto"], 
                     imagenes: [
-                        '/ConsultARme/epuyen.jpg',
+                        '/epuyen.jpg',
                     ],
                     textos: [ 'Comunicate con nosotros' ]
                 };
@@ -27,7 +27,7 @@ export const HeaderSecundario = () => {
                 return {
                     titulos: ["Lorem"],
                     imagenes: [
-                        '/ConsultARme/',
+                        '/',
                     ],
                     textos: [ 'lorem' ]
                 };

@@ -8,7 +8,7 @@ export const Parallax = () => {
     switch (location.pathname) {
         case '/servicios':
             content = {
-                background: '/ConsultARme/img/axof.jpg',
+                background: '/tango/axof.jpg',
                 title: 'Comunicate con nosotros',
                 buttonText: 'Soporte en línea',
                 buttonLink: 'https://api.whatsapp.com/send?phone=5492215923513'
@@ -16,7 +16,7 @@ export const Parallax = () => {
             break;
         case '/contacto':
             content = {
-                background: '/ConsultARme/img/axof.jpg',
+                background: '/tango/axof.jpg',
                 title: 'Comunicate con nosotros',
                 buttonText: 'Soporte en línea',
                 buttonLink: 'https://api.whatsapp.com/send?phone=5492215923513'
@@ -24,7 +24,7 @@ export const Parallax = () => {
             break;
         default:
             content = {
-                background: '/ConsultARme/img/axof.jpg',
+                background: '/tango/axof.jpg',
                 title: 'Servicio Tango Delta',
                 buttonText: 'Servicios',
                 buttonLink: '/servicios'
@@ -39,7 +39,7 @@ export const Parallax = () => {
                     <div className="row align-items-center justify-content-center">
                         <div className="col-sm-7">
                             <img
-                                src="/ConsultARme/marca/logo.svg"
+                                src="/marca/logo.svg"
                                 className="d-block mx-lg-auto mb-3"
                                 alt="Bootstrap Themes"
                                 loading="lazy"
