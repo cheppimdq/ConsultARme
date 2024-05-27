@@ -47,7 +47,7 @@ export const Parallax = () => {
                     <div className="row align-items-center justify-content-center">
                         <div className="col-sm-7">
                             <img
-                                src="/ConsultARme/logonav.svg"
+                                src="/ConsultARme/logo.svg"
                                 className="d-block mx-lg-auto mb-3"
                                 alt="Bootstrap Themes"
                                 loading="lazy"
