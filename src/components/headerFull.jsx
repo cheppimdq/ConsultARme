@@ -1,4 +1,6 @@
 import React, { useEffect, useRef } from 'react';
+import { NavLink } from 'react-router-dom';
+
 
 export const HeaderFull = () => {
     const videoRef = useRef(null);
@@ -32,7 +34,7 @@ export const HeaderFull = () => {
                 <div className="carousel-inner link-blanco">
                     <div className="carousel-item altura-100 active">
                         <div className="carousel-caption">
-                            <a href=""><h1 className='h-1'>ConsultARme</h1></a>
+                            <NavLink to="/"><h1 className='h-1'>ConsultARme</h1></NavLink>
                             <p>Soluciones empresariales</p>
                         </div>
                         <video
@@ -50,7 +52,7 @@ export const HeaderFull = () => {
                     <div className="carousel-item altura-100">
                         <img src="/tango/empleados.webp"></img>
                         <div className="carousel-caption">
-                            <a href=""><h2 className='h-1'>Servicios</h2></a>
+                            <NavLink to="/servicios"><h2 className='h-1'>Servicios</h2></NavLink>
                             <p>Asistencia Tango Delta remota</p>
                         </div>
                     </div>
@@ -58,7 +60,7 @@ export const HeaderFull = () => {
                     <div className="carousel-item altura-100">
                         <img src="/header/epuyen.jpg" alt="..."></img>
                         <div className="carousel-caption">
-                            <a href=""><h2 className='h-1'>Contacto</h2></a>
+                            <NavLink to="/contacto"><h2 className='h-1'>Contacto</h2></NavLink>
                             <p>Comunicate con nosotros</p>
                         </div>
                     </div>
