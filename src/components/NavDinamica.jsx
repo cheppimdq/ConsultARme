@@ -18,24 +18,22 @@ export const NavDinamica = () => {
   }, []);
 
   return (
-    <>
-      <nav className={`navbar navbar-expand-lg fixed-top ${scrolled ? 'nav-blanco' : 'nav-transparente'}`}>
-        <div className="container">
-          <Link to="/" className="navbar-brand">
-            <img src={scrolled ? "/marca/nav-celeste.png" : "/marca/nav-blanco.png"} alt="" width="30" height="30" className="logo-pp" />
-          </Link>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <FontAwesomeIcon icon="fa-solid fa-bars" />
-          </button>
-          <div className="collapse navbar-collapse" id="navbarScroll">
-            <ul className="navbar-nav ms-auto me-0 navbar-nav-scroll">
-              <li className="nav-item px-0 px-lg-4"><NavLink to='/' className={`nav-link ${scrolled ? 'link-celeste' : 'link-blanco'}`}>Inicio</NavLink></li>
-              <li className="nav-item px-0 px-lg-4"><NavLink to='/servicios' className={`nav-link ${scrolled ? 'link-celeste' : 'link-blanco'}`}>Servicios</NavLink></li>
-              <li className="nav-item px-0 px-lg-4"><NavLink to='/contacto' className={`nav-link ${scrolled ? 'link-celeste' : 'link-blanco'}`}>Contacto</NavLink></li>
-            </ul>
-          </div>
+    <nav className={`navbar navbar-expand-lg fixed-top ${scrolled ? 'nav-blanco' : 'nav-transparente'}`}>
+      <div className="container">
+        <Link to="/" className="navbar-brand">
+          <img src={scrolled ? "/marca/nav-celeste.png" : "/marca/nav-blanco.png"} alt="" className="img-fluid foto-pp" style={{ maxHeight: '60px' }} />
+        </Link>
+        <button className={`navbar-toggler ${scrolled ? 'link-celeste' : 'link-blanco'}`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <FontAwesomeIcon icon="fa-solid fa-bars" />
+        </button>
+        <div className="collapse navbar-collapse" id="navbarScroll">
+          <ul className="navbar-nav ms-auto me-0 navbar-nav-scroll">
+            <li className="nav-item px-0 px-lg-4"><NavLink to='/' className={`nav-link ${scrolled ? 'link-celeste' : 'link-blanco'}`}>Inicio</NavLink></li>
+            <li className="nav-item px-0 px-lg-4"><NavLink to='/servicios' className={`nav-link ${scrolled ? 'link-celeste' : 'link-blanco'}`}>Servicios</NavLink></li>
+            <li className="nav-item px-0 px-lg-4"><NavLink to='/contacto' className={`nav-link ${scrolled ? 'link-celeste' : 'link-blanco'}`}>Contacto</NavLink></li>
+          </ul>
         </div>
-      </nav>
-    </>
+      </div>
+    </nav>
   );
 };
