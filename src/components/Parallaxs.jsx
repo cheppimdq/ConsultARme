@@ -23,8 +23,8 @@ export const Parallaxs = () => {
         default:
             content = {
                 title: 'Servicio Tango Delta',
-                buttonText: 'Servicios',
-                buttonLink: '/servicios'
+                buttonText: 'Soporte en línea',
+                buttonLink: 'https://api.whatsapp.com/send?phone=5492215923513'
             };
             break;
     }
