@@ -27,7 +27,6 @@ export const HeaderFull = () => {
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
 
                 <div className="carousel-inner link-blanco">
@@ -49,18 +48,10 @@ export const HeaderFull = () => {
                     </div>
 
                     <div className="carousel-item altura-100">
-                        <img src="/ConsultARme/header-1.jpg"></img>
+                        <img src="/ConsultARme/tango/empleados.webp"></img>
                         <div className="carousel-caption">
                             <a href=""><h2>Servicios</h2></a>
                             <p>Asistencia Tango Delta remota</p>
-                        </div>
-                    </div>
-
-                    <div className="carousel-item altura-100">
-                        <img src="/ConsultARme/header-2.jpg" alt="..."></img>
-                        <div className="carousel-caption">
-                            <a href=""><h2>Tarifas</h2></a>
-                            <p>Planes para MIPYMES</p>
                         </div>
                     </div>
 

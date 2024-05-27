@@ -11,38 +11,25 @@ export const HeaderSecundario = () => {
                 return {
                     titulos: ["Servicios"],
                     imagenes: [
-                        '/ConsultARme/header-1.jpg',
-                        '',
+                        '/ConsultARme/tango/empleados.webp',
                     ],
                     textos: [ 'Asistencia Tango Delta remota' ]
-                };
-            case '/tarifas':
-                return {
-                    titulos: ["Tarifas"],
-                    imagenes: [
-                        '/ConsultARme/header-2.jpg',
-                        '',
-                    ],
-                    textos: [ 'Planes para MIPYMES' ]
                 };
             case '/contacto':
                 return {
                     titulos: ["Contacto"], 
                     imagenes: [
                         '/ConsultARme/epuyen.jpg',
-                        'https://images.pexels.com/photos/1714205/pexels-photo-1714205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
                     ],
                     textos: [ 'Comunicate con nosotros' ]
                 };
             default:
                 return {
-                    titulos: ["ConsultARme"],
+                    titulos: ["Lorem"],
                     imagenes: [
                         '/ConsultARme/',
-                        '/ConsultARme/',
-                        '/ConsultARme/'
                     ],
-                    textos: [ 'Ajedrez al Paso' ]
+                    textos: [ 'lorem' ]
                 };
         }
     };

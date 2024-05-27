@@ -8,21 +8,21 @@ export const Article = () => {
     switch (location.pathname) {
         case '/servicios':
             content = {
-                image: '/ConsultARme/any.png',
+                image: '/ConsultARme/tango/any.png',
                 title: 'Soporte en línea',
                 text: 'Estamos disponibles para ayudarte de forma remota a través de herramientas como Team Viewer y Anydesk. Después de cada servicio realizado, te enviaremos un correo electrónico con detalles como la fecha, duración y un resumen del trabajo realizado.'
             };
             break;
         case '/contacto':
             content = {
-                image: '/ConsultARme/any.png',
+                image: '/ConsultARme/tango/any.png',
                 title: 'Soporte en línea',
                 text: 'Estamos disponibles para ayudarte de forma remota a través de herramientas como Team Viewer y Anydesk. Después de cada servicio realizado, te enviaremos un correo electrónico con detalles como la fecha, duración y un resumen del trabajo realizado.'
             };
             break;
         default:
             content = {
-                image: '/ConsultARme/any.png',
+                image: '/ConsultARme/tango/any.png',
                 title: 'Soporte en línea',
                 text: 'Estamos disponibles para ayudarte de forma remota a través de herramientas como Team Viewer y Anydesk. Después de cada servicio realizado, te enviaremos un correo electrónico con detalles como la fecha, duración y un resumen del trabajo realizado.'
             };

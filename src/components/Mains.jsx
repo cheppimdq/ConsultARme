@@ -9,42 +9,42 @@ export const Main = () => {
     switch (location.pathname) {
         case '/servicios':
             mainContent = {
-                image: '/ConsultARme/dispositivo-1.png',
+                image: '/ConsultARme/tango/dispositivo-1.png',
                 title: 'Servicios Tango Delta',
                 text: 'Asistencia para cualquier tipo de contingencia que surja en el uso diario del Sistema. Instalación del Sistema y Puestos de Tango. Parametrización del Tango Sueldos para la generación del Libro Sueldos Digital para AFIP.',
                 buttonText: 'Planes y tarifas',
                 buttonLink: '/tarifas'
             };
             articleContent = {
-                image: '/ConsultARme/dispositivo-2.png',
+                image: '/ConsultARme/tango/dispositivo-2.png',
                 title: 'Instalación',
                 text: 'Nos encargamos de instalar el sistema en nuevos servidores o puestos, así como de migrarlo o actualizarlo cuando sea necesario. Solo necesitas proporcionar el equipo con los requisitos mínimos.'
             };
             break;
         case '/contacto':
             mainContent = {
-                image: '/ConsultARme/dispositivo-3.png',
+                image: '/ConsultARme/tango/dispositivo-3.png',
                 title: 'Soporte en línea',
                 text: 'Estamos disponibles para ayudarte de forma remota a través de herramientas como Team Viewer y Anydesk. Después de cada servicio realizado, te enviaremos un correo electrónico con detalles como la fecha, duración y un resumen del trabajo realizado.',
                 buttonText: 'Contacto',
                 buttonLink: '/contacto'
             };
             articleContent = {
-                image: '/ConsultARme/dispositivo-2.png',
+                image: '/ConsultARme/tango/dispositivo-2.png',
                 title: 'Contáctanos',
                 text: 'Estamos aquí para ayudarte. Puedes contactarnos a través de nuestro formulario en línea o llamarnos directamente.'
             };
             break;
         default:
             mainContent = {
-                image: '/ConsultARme/dispositivo-1.png',
+                image: '/ConsultARme/tango/dispositivo-1.png',
                 title: 'Servicio Tango Delta',
                 text: 'Asistencia para cualquier tipo de contingencia que surja en el uso diario del Sistema. Instalación del Sistema y Puestos de Tango. Parametrización del Tango Sueldos para la generación del Libro Sueldos Digital para AFIP.',
                 buttonText: 'Conoce más',
                 buttonLink: '/'
             };
             articleContent = {
-                image: '/ConsultARme/dispositivo-2.png',
+                image: '/ConsultARme/tango/dispositivo-2.png',
                 title: 'Instalación',
                 text: 'Nos encargamos de instalar el sistema en nuevos servidores o puestos, así como de migrarlo o actualizarlo cuando sea necesario. Solo necesitas proporcionar el equipo con los requisitos mínimos.'
             };
