@@ -30,8 +30,8 @@ export const Article = () => {
     }
 
     return (
-        <div className="my-4 p-3 text-start">
-            <div className="container py-3" data-aos="fade-up">
+        <div className="text-start p-3 fondo-gris">
+            <div className="container py-3 my-4" data-aos="fade-up">
                 <div className="row flex-lg-row-reverse align-items-center">
                     <div className="col-sm-12 col-md-6">
                         <img

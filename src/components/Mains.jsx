@@ -53,8 +53,8 @@ export const Main = () => {
 
     return (
         <>
-            <main className="my-3 p-3 text-start">
-                <div className="container py-3" data-aos="fade-up">
+            <main className="text-start p-3 fondo-gris">
+                <div className="container py-3 my-3" data-aos="fade-up">
                     <div className="row flex-lg-row-reverse align-items-center">
                         <div className="col-sm-12 col-md-6">
                             <img
@@ -78,25 +78,25 @@ export const Main = () => {
                     </div>
                 </div>
             </main>
-            <article className="my-3 p-3 text-center fondo-gris">
-                    <div className="container py-3" data-aos="fade-up">
-                        <div className="row flex-lg-row-reverse align-items-center">
-                            <div className="col-sm-12 col-md-6 mb-4 mb-md-0">
-                                <h4 className="h2 mb-3">{articleContent.title}</h4>
-                                <p className="lead text-secondary mb-4">{articleContent.text}</p>
-                            </div>
-                            <div className="col-sm-12 col-md-6">
-                                <img
-                                    src={articleContent.image}
-                                    className="d-block mx-auto"
-                                    alt={articleContent.title}
-                                    width="700"
-                                    height="500"
-                                    loading="lazy"
-                                />
-                            </div>
+            <article className="text-center p-3">
+                <div className="container py-3 my-3" data-aos="fade-up">
+                    <div className="row flex-lg-row-reverse align-items-center">
+                        <div className="col-sm-12 col-md-6 mb-4 mb-md-0">
+                            <h4 className="h2 mb-3">{articleContent.title}</h4>
+                            <p className="lead text-secondary mb-4">{articleContent.text}</p>
+                        </div>
+                        <div className="col-sm-12 col-md-6">
+                            <img
+                                src={articleContent.image}
+                                className="d-block mx-auto"
+                                alt={articleContent.title}
+                                width="700"
+                                height="500"
+                                loading="lazy"
+                            />
                         </div>
                     </div>
+                </div>
             </article>
         </>
     );
