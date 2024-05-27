@@ -48,7 +48,7 @@ export const HeaderSecundario = () => {
                 </div>
             
                 <div className="carousel-caption">
-                    <h1>{titulos[0]}</h1>
+                    <h1 className='h-1'>{titulos[0]}</h1>
                     <p>{textos[0]}</p>
                 </div>
             </header>

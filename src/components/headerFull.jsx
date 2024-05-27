@@ -32,8 +32,8 @@ export const HeaderFull = () => {
                 <div className="carousel-inner link-blanco">
                     <div className="carousel-item altura-100 active">
                         <div className="carousel-caption">
-                            <a href=""><h1>ConsultARme</h1></a>
-                            <p>Soluciones empresariales</p>
+                            <a href=""><h1 className='h-1'>ConsultARme</h1></a>
+                            <p v>Soluciones empresariales</p>
                         </div>
                         <video
                             // id="header-video"
@@ -50,7 +50,7 @@ export const HeaderFull = () => {
                     <div className="carousel-item altura-100">
                         <img src="/ConsultARme/tango/empleados.webp"></img>
                         <div className="carousel-caption">
-                            <a href=""><h2>Servicios</h2></a>
+                            <a href=""><h2 className='h-1'>Servicios</h2></a>
                             <p>Asistencia Tango Delta remota</p>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ export const HeaderFull = () => {
                     <div className="carousel-item altura-100">
                         <img src="/ConsultARme/epuyen.jpg" alt="..."></img>
                         <div className="carousel-caption">
-                            <a href=""><h2>Contacto</h2></a>
+                            <a href=""><h2 className='h-1'>Contacto</h2></a>
                             <p>Comunicate con nosotros</p>
                         </div>
                     </div>

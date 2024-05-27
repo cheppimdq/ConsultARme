@@ -41,7 +41,7 @@ export const Parallax = () => {
     }
 
     return (
-        <section className="parallax-pp my-4 px-4 py-5" style={{ background: content.background }}>
+        <section className="parallax-pp" style={{ background: content.background }}>
             <div className="parallax-inner-pp p-3 text-center">
                 <div className="container py-3">
                     <div className="row align-items-center justify-content-center">

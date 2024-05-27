@@ -49,7 +49,7 @@ export const SlideClientes = () => {
 
     return (
         <>
-            <aside className="px-4 py-5">
+            <aside className="px-4 py-5 fondo-gris">
                 <div className="p-3 text-center">
                     <div className="container py-3">
                         <Slider {...settings}>

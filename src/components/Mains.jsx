@@ -67,7 +67,7 @@ export const Main = () => {
                             />
                         </div>
                         <div className="col-sm-12 col-md-6">
-                            <h1 className="h1 mb-3">{mainContent.title}</h1>
+                            <h3 className="h1 mb-3">{mainContent.title}</h3>
                             <p className="lead text-secondary mb-4">{mainContent.text}</p>
                             <NavLink to={mainContent.buttonLink} className="nav-link">
                                 <button type="button" className="btn btn-lg bsb-btn-2xl btn-info">
@@ -78,13 +78,12 @@ export const Main = () => {
                     </div>
                 </div>
             </main>
-            <article className="my-3 px-3 py-3 fondo-gris">
-                <div className="p-3 text-center">
+            <article className="my-3 p-3 text-center fondo-gris">
                     <div className="container py-3" data-aos="fade-up">
                         <div className="row flex-lg-row-reverse align-items-center">
                             <div className="col-sm-12 col-md-6 mb-4 mb-md-0">
-                                <h1 className="display-5 fw-bold text-body-emphasis lh-1">{articleContent.title}</h1>
-                                <p className="lead mt-3">{articleContent.text}</p>
+                                <h4 className="h2 mb-3">{articleContent.title}</h4>
+                                <p className="lead text-secondary mb-4">{articleContent.text}</p>
                             </div>
                             <div className="col-sm-12 col-md-6">
                                 <img
@@ -98,7 +97,6 @@ export const Main = () => {
                             </div>
                         </div>
                     </div>
-                </div>
             </article>
         </>
     );

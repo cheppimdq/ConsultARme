@@ -44,7 +44,7 @@ export const Article = () => {
                         />
                     </div>
                     <div className="col-sm-12 col-md-6">
-                        <h1 className="h1 mb-3">{content.title}</h1>
+                        <h5 className="h-1 mb-3">{content.title}</h5>
                         <p className="lead text-secondary mb-4">{content.text}</p>
                     </div>
                 </div>
