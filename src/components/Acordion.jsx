@@ -2,13 +2,13 @@ import React from 'react';
 
 export const Acordion = () => {
     return (
-        <section class="bsb-faq-2 bg-light py-3 py-md-5 py-xl-8">
+        <section class="bsb-faq-2  py-3 py-md-5 py-xl-8">
             <div class="container">
                 <div class="row gy-5 gy-lg-0">
                     <div class="col-12 col-lg-6">
                         <h2 class="h1 mb-3">¿Cómo se calcula el importe de mi factura?</h2>
                         <p class="lead fs-4 text-secondary mb-4">Después de cada servicio realizado, te enviaremos un correo electrónico con detalles como la fecha, duración y un resumen del trabajo realizado. </p>
-                        <a href="#!" class="btn btn-lg bsb-btn-2xl btn-dark">Consultanos</a>
+                        <a href="#!" class="btn btn-lg bsb-btn-2xl btn-info">Consultanos</a>
                     </div>
                     <div class="col-12 col-lg-6">
                         <div class="row justify-content-xl-end">

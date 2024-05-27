@@ -71,7 +71,7 @@ export const Main = () => {
                                 <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">{mainContent.title}</h1>
                                 <p className="lead">{mainContent.text}</p>
                                 <NavLink to={mainContent.buttonLink} className="nav-link">
-                                    <button type="button" className="btn btn-dark btn-sm p-2">
+                                    <button type="button" className="btn btn-info btn-sm p-2">
                                         {mainContent.buttonText}
                                     </button>
                                 </NavLink>
@@ -80,7 +80,7 @@ export const Main = () => {
                     </div>
                 </div>
             </main>
-            <article className="my-3 px-3 py-3">
+            <article className="my-3 px-3 py-3 fondo-gris">
                 <div className="p-3 text-center">
                     <div className="container py-3" data-aos="fade-up">
                         <div className="row flex-lg-row-reverse align-items-center">

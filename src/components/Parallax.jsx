@@ -47,7 +47,7 @@ export const Parallax = () => {
                     <div className="row align-items-center justify-content-center">
                         <div className="col-sm-7">
                             <img
-                                src="/ConsultARme/logo.svg"
+                                src="/ConsultARme/marca/logo.svg"
                                 className="d-block mx-lg-auto mb-3"
                                 alt="Bootstrap Themes"
                                 loading="lazy"
@@ -56,7 +56,7 @@ export const Parallax = () => {
                         <div className="col-sm-7">
                             <h3 className="display-6 fw-bold lh-1 mb-5">{content.title}</h3>
                             <NavLink to={content.buttonLink} className="nav-link">
-                                <button className="btn btn-dark px-5 mb-5" type="button">
+                                <button className="btn btn-info px-5 mb-5" type="button">
                                     {content.buttonText}
                                 </button>
                             </NavLink>
