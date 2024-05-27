@@ -41,7 +41,7 @@ export const Main = () => {
                 title: 'Servicio Tango Delta',
                 text: 'Asistencia para cualquier tipo de contingencia que surja en el uso diario del Sistema. Instalación del Sistema y Puestos de Tango. Parametrización del Tango Sueldos para la generación del Libro Sueldos Digital para AFIP.',
                 buttonText: 'Conoce más',
-                buttonLink: '/servicios'
+                buttonLink: 'https://api.whatsapp.com/send?phone=5492215923513'
             };
             articleContent = {
                 image: '/tango/dispositivo-2.png',
