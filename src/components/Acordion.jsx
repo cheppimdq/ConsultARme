@@ -9,7 +9,7 @@ export const Acordion = () => {
                     <div class="col-12 col-lg-6">
                         <h5 className="h-2 mb-3">¿Cómo se calcula el importe de mi factura?</h5>
                         <p className="lead text-secondary mb-4">Después de cada servicio realizado, te enviaremos un correo electrónico con detalles como la fecha, duración y un resumen del trabajo realizado. </p>
-                        <Link href="https://api.whatsapp.com/send?phone=5492215923513" class="btn btn-lg bsb-btn-2xl btn-info">Consultanos</Link>
+                        <Link to="https://api.whatsapp.com/send?phone=5492215923513" class="btn btn-lg bsb-btn-2xl btn-info" target="_blank" rel="noopener noreferrer">Consultanos</Link>
                     </div>
                     <div className="col-12 col-lg-6">
                         <div className="row justify-content-xl-end">

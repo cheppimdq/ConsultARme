@@ -16,7 +16,7 @@ export const AsideMaps = () => {
 export const AsideWp = () => {
     return (
         <aside className="container">
-            <Link to="https://api.whatsapp.com/send?phone=5492215923513" target="_blank" className="boton-wp">
+            <Link to="https://api.whatsapp.com/send?phone=5492215923513" target="_blank" rel="noopener noreferrer" className="boton-wp">
                 <FontAwesomeIcon icon="fa-brands fa-whatsapp" />
             </Link>
         </aside>

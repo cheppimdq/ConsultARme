@@ -12,8 +12,8 @@ export const Main = () => {
                 image: '/tango/dispositivo-1.png',
                 title: 'Servicios Tango Delta',
                 text: 'Asistencia para cualquier tipo de contingencia que surja en el uso diario del Sistema. Instalación del Sistema y Puestos de Tango. Parametrización del Tango Sueldos para la generación del Libro Sueldos Digital para AFIP.',
-                buttonText: 'Planes y tarifas',
-                buttonLink: '/tarifas'
+                buttonText: 'Consultanos',
+                buttonLink: 'https://api.whatsapp.com/send?phone=5492215923513'
             };
             articleContent = {
                 image: '/tango/dispositivo-2.png',
@@ -27,7 +27,7 @@ export const Main = () => {
                 title: 'Soporte en línea',
                 text: 'Estamos disponibles para ayudarte de forma remota a través de herramientas como Team Viewer y Anydesk. Después de cada servicio realizado, te enviaremos un correo electrónico con detalles como la fecha, duración y un resumen del trabajo realizado.',
                 buttonText: 'Contacto',
-                buttonLink: '/contacto'
+                buttonLink: 'https://api.whatsapp.com/send?phone=5492215923513'
             };
             articleContent = {
                 image: '/tango/dispositivo-2.png',
@@ -41,7 +41,7 @@ export const Main = () => {
                 title: 'Servicio Tango Delta',
                 text: 'Asistencia para cualquier tipo de contingencia que surja en el uso diario del Sistema. Instalación del Sistema y Puestos de Tango. Parametrización del Tango Sueldos para la generación del Libro Sueldos Digital para AFIP.',
                 buttonText: 'Conoce más',
-                buttonLink: '/'
+                buttonLink: '/servicios'
             };
             articleContent = {
                 image: '/tango/dispositivo-2.png',
@@ -69,7 +69,7 @@ export const Main = () => {
                         <div className="col-sm-12 col-md-6">
                             <h3 className="h1 mb-3">{mainContent.title}</h3>
                             <p className="lead text-secondary mb-4">{mainContent.text}</p>
-                            <NavLink to={mainContent.buttonLink} className="nav-link">
+                            <NavLink to={mainContent.buttonLink} className="nav-link" target="_blank" rel="noopener noreferrer">
                                 <button type="button" className="btn btn-lg bsb-btn-2xl btn-info">
                                     {mainContent.buttonText}
                                 </button>

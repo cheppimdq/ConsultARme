@@ -13,7 +13,7 @@ export const HeaderSecundario = () => {
                     imagenes: [
                         '/tango/empleados.webp',
                     ],
-                    textos: [ 'Asistencia Tango Delta remota' ]
+                    textos: ['Asistencia Tango Delta remota' ]
                 };
             case '/contacto':
                 return {

@@ -16,9 +16,9 @@ export const Footer = () => {
                         </div>
                         <div className='col-sm-12 col-md-6 mb-5'>
                             <ul className="nav justify-content-center justify-content-md-end">
-                                <li className="list-inline-item"><Link className="nav-link" href="https://www.instagram.com/consultarme.ok/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'instagram']} /></Link></li>
-                                <li className="list-inline-item"><Link className="nav-link" href="https://www.facebook.com/ConsultARme" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'facebook-f']} /></Link></li>
-                                <li className="list-inline-item"><Link className="nav-link" href="https://www.linkedin.com/company/consultarme/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'linkedin-in']} /></Link></li>
+                                <li className="list-inline-item"><Link className="nav-link" to="https://www.instagram.com/consultarme.ok/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'instagram']} /></Link></li>
+                                <li className="list-inline-item"><Link className="nav-link" to="https://www.facebook.com/ConsultARme" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'facebook-f']} /></Link></li>
+                                <li className="list-inline-item"><Link className="nav-link" to="https://www.linkedin.com/company/consultarme/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'linkedin-in']} /></Link></li>
                             </ul>
                         </div>
                         <div className='col-sm-12 text-center mt-5'>
