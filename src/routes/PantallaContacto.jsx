@@ -4,7 +4,7 @@ import { NavDinamica } from '../components/NavDinamica.jsx';
 import { HeaderSecundario } from '../components/HeaderSecundario';
 import { Main } from '../components/Mains.jsx';
 import { Article } from '../components/Articles.jsx';
-import { Parallax } from '../components/Parallax.jsx';
+import { Parallaxs } from '../components/Parallaxs.jsx';
 import { AsideMaps, AsideWp  } from '../components/Asides.jsx';
 import { Footer } from '../components/Footer.jsx';
 
@@ -14,7 +14,7 @@ const PantallaContacto = () => {
       <NavDinamica />
       <HeaderSecundario />
       <Main />
-      <Parallax />
+      <Parallaxs />
       <Article />
       <AsideMaps />
       <AsideWp />
