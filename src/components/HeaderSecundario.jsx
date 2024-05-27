@@ -19,7 +19,7 @@ export const HeaderSecundario = () => {
                 return {
                     titulos: ["Contacto"], 
                     imagenes: [
-                        '/epuyen.jpg',
+                        '/header/epuyen.jpg',
                     ],
                     textos: [ 'Comunicate con nosotros' ]
                 };

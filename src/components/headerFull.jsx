@@ -37,7 +37,7 @@ export const HeaderFull = () => {
                         </div>
                         <video
                             // id="header-video"
-                            src="/video-1.mp4"
+                            src="/header/video-1.mp4"
                             alt="Vídeo de Pressmaster: https://www.pexels.com/es-es/video/un-hombre-caminando-dentro-de-una-planta-de-produccion-3209176/"
                             type="video/mp4"
                             autoPlay  // Reproducción automática
@@ -56,7 +56,7 @@ export const HeaderFull = () => {
                     </div>
 
                     <div className="carousel-item altura-100">
-                        <img src="/epuyen.jpg" alt="..."></img>
+                        <img src="/header/epuyen.jpg" alt="..."></img>
                         <div className="carousel-caption">
                             <a href=""><h2 className='h-1'>Contacto</h2></a>
                             <p>Comunicate con nosotros</p>
