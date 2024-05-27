@@ -56,7 +56,7 @@ export const Parallax = () => {
                         <div className="col-sm-7">
                             <h3 className="display-6 fw-bold lh-1 mb-5">{content.title}</h3>
                             <NavLink to={content.buttonLink} className="nav-link">
-                                <button className="btn btn-info px-5 mb-5" type="button">
+                                <button className="btn btn-lg bsb-btn-2xl btn-info">
                                     {content.buttonText}
                                 </button>
                             </NavLink>

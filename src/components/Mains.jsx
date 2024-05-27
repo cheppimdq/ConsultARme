@@ -53,29 +53,27 @@ export const Main = () => {
 
     return (
         <>
-            <main className="my-3 px-3 py-3">
-                <div className="p-3 text-center">
-                    <div className="container py-3" data-aos="fade-up">
-                        <div className="row flex-lg-row-reverse align-items-center">
-                            <div className="col-sm-12 col-md-6">
-                                <img
-                                    src={mainContent.image}
-                                    className="d-block mx-lg-auto"
-                                    alt={mainContent.title}
-                                    width="700"
-                                    height="500"
-                                    loading="lazy"
-                                />
-                            </div>
-                            <div className="col-sm-12 col-md-6">
-                                <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">{mainContent.title}</h1>
-                                <p className="lead">{mainContent.text}</p>
-                                <NavLink to={mainContent.buttonLink} className="nav-link">
-                                    <button type="button" className="btn btn-info btn-sm p-2">
-                                        {mainContent.buttonText}
-                                    </button>
-                                </NavLink>
-                            </div>
+            <main className="my-3 p-3 text-start">
+                <div className="container py-3" data-aos="fade-up">
+                    <div className="row flex-lg-row-reverse align-items-center">
+                        <div className="col-sm-12 col-md-6">
+                            <img
+                                src={mainContent.image}
+                                className="d-block mx-lg-auto"
+                                alt={mainContent.title}
+                                width="700"
+                                height="500"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div className="col-sm-12 col-md-6">
+                            <h1 className="h1 mb-3">{mainContent.title}</h1>
+                            <p className="lead text-secondary mb-4">{mainContent.text}</p>
+                            <NavLink to={mainContent.buttonLink} className="nav-link">
+                                <button type="button" className="btn btn-lg bsb-btn-2xl btn-info">
+                                    {mainContent.buttonText}
+                                </button>
+                            </NavLink>
                         </div>
                     </div>
                 </div>

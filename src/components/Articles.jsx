@@ -30,24 +30,22 @@ export const Article = () => {
     }
 
     return (
-        <div className="my-4 px-4 py-5">
-            <div className="p-3 text-center">
-                <div className="container py-3" data-aos="fade-up">
-                    <div className="row flex-lg-row-reverse align-items-center">
-                        <div className="col-sm-12 col-md-6">
-                            <img
-                                src={content.image}
-                                className="d-block mx-lg-auto"
-                                alt={content.title}
-                                width="700"
-                                height="500"
-                                loading="lazy"
-                            />
-                        </div>
-                        <div className="col-sm-12 col-md-6">
-                            <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">{content.title}</h1>
-                            <p className="lead">{content.text}</p>
-                        </div>
+        <div className="my-4 p-3 text-start">
+            <div className="container py-3" data-aos="fade-up">
+                <div className="row flex-lg-row-reverse align-items-center">
+                    <div className="col-sm-12 col-md-6">
+                        <img
+                            src={content.image}
+                            className="d-block mx-lg-auto"
+                            alt={content.title}
+                            width="700"
+                            height="500"
+                            loading="lazy"
+                        />
+                    </div>
+                    <div className="col-sm-12 col-md-6">
+                        <h1 className="h1 mb-3">{content.title}</h1>
+                        <p className="lead text-secondary mb-4">{content.text}</p>
                     </div>
                 </div>
             </div>
