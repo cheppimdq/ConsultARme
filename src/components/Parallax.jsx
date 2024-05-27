@@ -9,33 +9,25 @@ export const Parallax = () => {
         case '/servicios':
             content = {
                 background: '/ConsultARme/img/axof.jpg',
-                title: 'Servicios Tango Delta ',
-                buttonText: 'Servicios',
-                buttonLink: '/servicios'
-            };
-            break;
-        case '/tarifas':
-            content = {
-                background: '/ConsultARme/img/axof.jpg',
-                title: 'Consulta nuestras tarifas',
-                buttonText: 'Tarifas',
-                buttonLink: '/tarifas'
+                title: 'Comunicate con nosotros',
+                buttonText: 'Soporte en línea',
+                buttonLink: 'https://api.whatsapp.com/send?phone=5492215923513'
             };
             break;
         case '/contacto':
             content = {
                 background: '/ConsultARme/img/axof.jpg',
-                title: 'Contáctanos',
-                buttonText: 'Contacto',
-                buttonLink: '/contacto'
+                title: 'Comunicate con nosotros',
+                buttonText: 'Soporte en línea',
+                buttonLink: 'https://api.whatsapp.com/send?phone=5492215923513'
             };
             break;
         default:
             content = {
                 background: '/ConsultARme/img/axof.jpg',
                 title: 'Servicio Tango Delta',
-                buttonText: 'Conoce más',
-                buttonLink: '/'
+                buttonText: 'Servicios',
+                buttonLink: '/servicios'
             };
             break;
     }

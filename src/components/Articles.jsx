@@ -17,7 +17,7 @@ export const Article = () => {
             content = {
                 image: '/ConsultARme/tango/any.png',
                 title: 'Soporte en línea',
-                text: 'Estamos disponibles para ayudarte de forma remota a través de herramientas como Team Viewer y Anydesk. Después de cada servicio realizado, te enviaremos un correo electrónico con detalles como la fecha, duración y un resumen del trabajo realizado.'
+                text: 'Asistencia para cualquier tipo de contingencia que surja en el uso diario del Sistema. Instalación del Sistema y Puestos de Tango. Parametrización del Tango Sueldos para la generación del Libro Sueldos Digital para AFIP.'
             };
             break;
         default:

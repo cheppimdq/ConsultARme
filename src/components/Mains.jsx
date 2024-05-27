@@ -31,8 +31,8 @@ export const Main = () => {
             };
             articleContent = {
                 image: '/ConsultARme/tango/dispositivo-2.png',
-                title: 'Contáctanos',
-                text: 'Estamos aquí para ayudarte. Puedes contactarnos a través de nuestro formulario en línea o llamarnos directamente.'
+                title: 'Comunicacion constante',
+                text: 'Después de cada servicio realizado, te enviaremos un correo electrónico con detalles como la fecha, duración y un resumen del trabajo realizado.'
             };
             break;
         default:

@@ -127,13 +127,11 @@ body a {
 
 /* PARALLAX */
 .parallax-pp {
+  height: 66vh;
   background: url("/ConsultARme/tango/axof.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
-.parallax-pp .parallax-inner-pp {
-  padding: 10% 0;
 }
 .parallax-pp .parallax-inner-pp h3, .parallax-pp .parallax-inner-pp p {
   color: #ffffff;
