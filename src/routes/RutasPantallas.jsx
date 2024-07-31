@@ -1,5 +1,4 @@
-import { Route, Routes, Navigate } from "react-router-dom"
-
+import { Route, Routes, Navigate } from "react-router-dom";
 import PantallaInicio from './PantallaInicio.jsx';
 import PantallaServicios from './PantallaServicios.jsx';
 import PantallaContacto from './PantallaContacto.jsx';
